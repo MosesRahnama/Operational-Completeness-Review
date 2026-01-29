@@ -1,0 +1,17 @@
+Context: File review extract.
+Source: C:\Users\Moses\OpComp\MUST_Review\What you should do now.pdf
+SHA256: B154DF245A6031CEDFA58217E14005D5167FFA5276CB6DF7D2E2350A9C238CFF
+FailureExplanation: PDF document; requires review for technical claims.
+FailureModeTags: 
+
+Excerpt:
+> %PDF-1.4
+> %
+> 1 0 obj
+> <</Creator (Mozilla/5.0 \(Windows NT 10.0; Win64; x64\) AppleWebKit/537.36 \(KHTML, like Gecko\) Evernote/10.149.2 Chrome/132.0.6834.210 Electron/34.3.2 Safari/537.36)
+> /Producer (Skia/PDF m132)
+> /CreationDate (D:20250811065439+00'00')
+> /ModDate (D:20250811065439+00'00')>>
+> endobj
+> 3 0 obj
+> <</ca 1
