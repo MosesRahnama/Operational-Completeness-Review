@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; Analysis or notes documenting failures, blockers, or unproven claims.
+Contents: Metadata header + excerpt from the source file.
 Context: File review extract.
-Source: C:\Users\Moses\OpComp\MUST_Review\convert-docx-to-md.ps1
+Source: MUST_Review/convert-docx-to-md.ps1
 SHA256: 300F0619AA1F474C061A00AA0BC97474F3AA830A389FB33DC3CA1B5B27915B57
 FailureExplanation: Analysis or notes documenting failures, blockers, or unproven claims.
 FailureModeTags: 
@@ -15,3 +17,7 @@ Excerpt:
 > if (-not (Test-Path $targetDir)) {
 > Write-Host "Error: Directory not found: $targetDir" -ForegroundColor Red
 > exit 1
+
+
+
+

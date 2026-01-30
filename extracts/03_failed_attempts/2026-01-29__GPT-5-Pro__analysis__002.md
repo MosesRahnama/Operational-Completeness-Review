@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; Duplicate of FRV2-0181.
+Contents: Metadata header + excerpt from the source file.
 Context: Lists disallowed lemmas and invalid proof shortcuts used in prior attempts.
-Source: C:\Users\Moses\OpComp\MUST_Review\chats\GPT-5-Pro.md
+Source: MUST_Review/chats/GPT-5-Pro.md
 SHA256: 2CC1DCF2833D2178BC911132E0BF5B45241295BE2C3CC52BB9F67BDF2C68605D
 FailureExplanation: Lists disallowed lemmas and invalid proof shortcuts used in prior attempts.
 FailureModeTags: unsupported_inference; invalid_rewrite; protocol_violation
@@ -11,3 +13,7 @@ Excerpt:
 > the per‑rule math↔tactic mapping,
 > a tiny dependency scan, and
 > the exact code patches (two files): a new μ‑drop for eqW_diff in MuCore.lean and the final single SN harness in SN_Final.lean using Prod.Lex + InvImage.wf.
+
+
+
+

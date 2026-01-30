@@ -1,5 +1,7 @@
+Purpose: Evidence extract (misc/reference) documenting a failure or relevance; Duplicate of FRV2-0363.
+Contents: Metadata header + excerpt from the source file.
 Context: Snippet collection; not a proof artifact.
-Source: C:\Users\Moses\OpComp\MUST_Review\important_2\ko7_snippets.txt
+Source: MUST_Review/important_2/ko7_snippets.txt
 SHA256: 22944CC09973602B0492A1163F53C7A9EC77386C10837AEAF57CE0E34068BCFA
 FailureExplanation: Snippet collection; not a proof artifact.
 FailureModeTags: 
@@ -17,3 +19,7 @@ Excerpt:
 > 26: | R_rec_zero : ∀ b s, Step (recΔ b s void) b
 > 27: | R_rec_succ : ∀ b s n, Step (recΔ b s (delta n)) (app s (recΔ b s n))
 > 28: | R_eq_refl : ∀ a, Step (eqW a a) void
+
+
+
+

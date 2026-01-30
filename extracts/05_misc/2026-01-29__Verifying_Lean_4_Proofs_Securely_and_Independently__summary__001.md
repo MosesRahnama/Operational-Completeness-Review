@@ -1,5 +1,7 @@
+Purpose: Evidence extract (misc/reference) documenting a failure or relevance; Background research memo; not a proof artifact.
+Contents: Metadata header + excerpt from the source file.
 Context: Background research memo; not a proof artifact.
-Source: C:\Users\Moses\OpComp\MUST_Review\important_2\Research\Verifying_Lean_4_Proofs_Securely_and_Independently.md
+Source: MUST_Review/important_2/Research/Verifying_Lean_4_Proofs_Securely_and_Independently.md
 SHA256: ECEA690EE59CA7DB6C67AE7FE78FF979EDC133402159411F0B5BDCE600FF5F4C
 FailureExplanation: Background research memo; not a proof artifact.
 FailureModeTags: 
@@ -17,3 +19,7 @@ Excerpt:
 > Using VS Code offline: If you prefer an interactive environment, you can install Lean and VS Code on an air-gapped computer or use VS Code’s remote containers extension to work inside a locally-hosted Docker container. This way, all the Lean checking (which happens in the Lean server) stays local. No code or proof obligations will be sent to any cloud service. Ensure features like mathlib’s online oleans cache are disabled or pointed to a local source to avoid any external fetch. In an offline CI setup, you should also avoid posting build logs to public sites since they might contain parts of your code. Keep the CI logs and artifacts on internal servers.
 > Self-hosted runners: If you use a service like GitHub or GitLab, configure a self-hosted runner on your own machine. That runner can perform the Lean build without sending data to the cloud. The key is that the code repository should be private (or on an internal version control system), and the runner should not expose logs publicly. By combining these practices, you get the benefits of automated proof checking and regression testing, while fully maintaining privacy. In summary, an isolated CI or build environment continuously validates your Lean proofs and build, catching errors early, all without exposing your proprietary theory.
 > ## Lean Code Auditing Tools (Axioms, Unsafe Code, and Incompleteness)
+
+
+
+

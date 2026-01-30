@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; Analysis or notes documenting failures, blockers, or unproven claims.
+Contents: Metadata header + excerpt from the source file.
 Context: File review extract.
-Source: C:\Users\Moses\OpComp\MUST_Review\Termination_Companion.md
+Source: MUST_Review/Termination_Companion.md
 SHA256: CE216997787C2E1DCC6FF046DD6416463CD7E457FC286CE273DFD72FFCD6B435
 FailureExplanation: Analysis or notes documenting failures, blockers, or unproven claims.
 FailureModeTags: constraint_violation; inconsistency
@@ -15,3 +17,7 @@ Excerpt:
 > ## 2. The Measure `` and the Eight Decrease Cases
 > ```lean
 >  : Trace  Ordinal
+
+
+
+

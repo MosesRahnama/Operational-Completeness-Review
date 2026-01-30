@@ -1,5 +1,7 @@
+Purpose: Evidence extract (misc/analysis) documenting a failure or relevance; Reference or planning document; not a proof artifact.
+Contents: Metadata header + excerpt from the source file.
 Context: File review extract.
-Source: C:\Users\Moses\OpComp\MUST_Review\Hybrid_Termination.md
+Source: MUST_Review/Hybrid_Termination.md
 SHA256: 5698103894EB694B70446BAFD3D855246472F2D0604D3F45227AFD4B8194465F
 FailureExplanation: Reference or planning document; not a proof artifact.
 FailureModeTags: 
@@ -15,3 +17,7 @@ Excerpt:
 > - MPO-safe: `MetaSN_MPO.wf_SafeStepMPORev : WellFounded MetaSN_MPO.SafeStepMPORev`.
 > - We do not assert a single global measure over the entire `Step` due to duplication and right-add hazards (ordinal addition). Instead, we expose the hybrid certificate and two safe well-founded subsets. This is intentional and documented.
 > > Canonical copy moved to `Submission_Material/md/Hybrid_Termination.md`.
+
+
+
+

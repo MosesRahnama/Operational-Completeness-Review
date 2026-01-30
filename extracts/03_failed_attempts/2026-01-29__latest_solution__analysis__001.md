@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; Duplicate of primary entry.
+Contents: Metadata header + excerpt from the source file.
 Context: Excerpt from latest_solution outlining termination-proof constraint blockers and a failed-attempts audit.
-Source: C:\Users\Moses\OpComp\MUST_Review\Legacy\MetaMD_Archive\latest_solution.md
+Source: Legacy/MetaMD_Archive/latest_solution.md
 SHA256: FE25EA023EE8F8499B3759F8055702C35FD7564A825D64A3A9083C8D1C9C560A
 FailureExplanation: The memo documents false ordinal lemmas and measure-invariant conflicts that leave the termination proof stuck under current constraints.
 FailureModeTags: constraint_violation; invalid_rewrite; nondecreasing_measure; proof_obligation_stuck
@@ -44,3 +46,7 @@ Excerpt:
 > A5	Let Îº be a topâ€‘level â€œisâ€‘recÎ”â€ bit and require Îº equal on all nonâ€‘rec_succ rules	Fails on merge â€¦ â†’ â€¦ and rec_zero when arguments are (or become) recÎ” (see CBâ€‘1)	DISALLOWED
 > 
 > (Items A2A3 are explicitly called out in your consolidationtoolkit files; see the â€œcritical Î¼â€‘measure correctionâ€ section and related warnings.)
+
+
+
+

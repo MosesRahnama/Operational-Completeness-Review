@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; Duplicate of MUST_Review\Legacy\Meta_Lean_Archive\Termination_C.lean.
+Contents: Metadata header + excerpt from the source file.
 Context: Termination_C.lean documents a remaining domination inequality as a parameterized assumption.
-Source: C:\Users\Moses\OpComp\MUST_Review\Legacy\Meta_Lean_Archive\Termination_C.lean
+Source: MUST_Review/Legacy/Meta_Lean_Archive/Termination_C.lean
 SHA256: B5E8E55D80293DB39E8464DEA29209AAC1029FBF9727D7E7EAA647FE7D3CD8BE
 FailureExplanation: Core recΔ successor inequality is assumed (h_bound), not proved, so the termination chain is conditional.
 FailureModeTags: unsupported_inference
@@ -257,3 +259,7 @@ Excerpt:
 >   -- Expand mu definitions on both sides; structure then matches h_bound directly
 >   simp only [mu]
 >   exact h_bound
+
+
+
+

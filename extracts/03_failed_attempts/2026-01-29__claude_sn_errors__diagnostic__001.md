@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/diagnostic) documenting a failure or relevance; Diagnostics indicate missing cases and unknown identifiers in Claude_SN.lean.
+Contents: Metadata header + excerpt from the source file.
 Context: Lean error log for Claude_SN.lean showing missing cases/unknown identifiers.
-Source: C:\Users\Moses\OpComp\MUST_Review\MetaMD_Archive\claude_sn_errors.md
+Source: Legacy/MetaMD_Archive/claude_sn_errors.md
 SHA256: 9DA5CFE635D880421726BD6103939403035D13E232491B0923FD7512EC2E5014
 FailureExplanation: Diagnostics indicate missing cases and unknown identifiers in Claude_SN.lean.
 FailureModeTags: proof_obligation_stuck; undefined_symbol
@@ -170,3 +172,7 @@ Excerpt:
 > Claude_SN.lean:109:2
 > [Elab.info]  ▶
 > Claude_SN.lean:109:2
+
+
+
+

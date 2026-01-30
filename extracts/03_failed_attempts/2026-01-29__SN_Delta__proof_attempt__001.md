@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/proof-attempt) documenting a failure or relevance; Duplicate of Legacy\\MetaMD_Archive\\SN_Delta.md.
+Contents: Metadata header + excerpt from the source file.
 Context: Excerpt from SN_Delta showing the μ̂_decreases proof with an explicit `sorry` and an unreachable-branch assertion.
-Source: C:\Users\Moses\OpComp\MUST_Review\Legacy\MetaMD_Archive\SN_Delta.md
+Source: Legacy/MetaMD_Archive/SN_Delta.md
 SHA256: 2FBEEBA4954B4F8731BF05022A30EE62159BDD4186B6B9030A04D0DF7A24FDF4
 FailureExplanation: The proof contains a `sorry` in the rec_zero case and asserts unreachable branches, leaving the SN argument incomplete.
 FailureModeTags: proof_obligation_stuck; unsupported_inference
@@ -68,3 +70,7 @@ Excerpt:
 >         simpa [d] using this
 > | _, _, R_eq_diff a b hab =>
 >     lift_mu_drop (MetaSN.mu_lt_eq_diff a b) (by simp [d])
+
+
+
+

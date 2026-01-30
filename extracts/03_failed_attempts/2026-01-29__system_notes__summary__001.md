@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; Analysis or notes documenting failures, blockers, or unproven claims.
+Contents: Metadata header + excerpt from the source file.
 Context: File review extract.
-Source: C:\Users\Moses\OpComp\MUST_Review\system_notes.md
+Source: MUST_Review/system_notes.md
 SHA256: F294A9C96340C6F863BE938497167DF8E3A98A4567E92FD14368034DE04A0905
 FailureExplanation: Analysis or notes documenting failures, blockers, or unproven claims.
 FailureModeTags: constraint_violation; proof_obligation_stuck; nonconvergence
@@ -15,3 +17,7 @@ Excerpt:
 > Hence the projects Primary Objective is blocked at a foundational level, and no amount of measure-tuning or multiset precedence can remove that logical obstacle.
 > Where the concrete calculations fail
 > The blockage already appears in the simplest attempt to add primitive recursion.
+
+
+
+

@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; Duplicate of Legacy\MetaMD_Archive\MuCore_Diag_Reports.md.
+Contents: Metadata header + excerpt from the source file.
 Context: Full diagnostic reports summarizing MuCore.lean failures, root causes, and suggested fixes for ordinal lemma proofs.
-Source: C:\Users\Moses\OpComp\MUST_Review\Legacy\MetaMD_Archive\MuCore_Diag_Reports.md
+Source: Legacy/MetaMD_Archive/MuCore_Diag_Reports.md
 SHA256: 23C93BAEC754BD36857AE0E5FB64D8163ACD13BF963E83448F00E90AEF85AEC8
 FailureExplanation: These reports document repeated ordinal proof breakdowns and the resulting fix blueprints, showing persistent proof fragility.
 FailureModeTags: environment_mismatch; undefined_symbol; invalid_rewrite; proof_obligation_stuck; nonconvergence
@@ -316,3 +318,7 @@ SUCCESS: Report added with concrete fix map.
 Apply fixes (imports, `opow_add` rewrites, ordinal bridges); re-run build and update log.
 
 # Diagnostic Report #4
+
+
+
+

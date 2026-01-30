@@ -1,5 +1,7 @@
+Purpose: Evidence extract (misc/reference) documenting a failure or relevance; Background research memo; not a proof artifact.
+Contents: Metadata header + excerpt from the source file.
 Context: Background research memo; not a proof artifact.
-Source: C:\Users\Moses\OpComp\MUST_Review\important_2\Research\TRS_With_Duplicating_Rules.md
+Source: MUST_Review/important_2/Research/TRS_With_Duplicating_Rules.md
 SHA256: 7020EED9EADCFB7759EE134E8BC925F9A7FD2BAA17EC2AC9C87B618A7FD18EBD
 FailureExplanation: Background research memo; not a proof artifact.
 FailureModeTags: 
@@ -17,3 +19,7 @@ Excerpt:
 > | D33/33 (Dershowitz) | base-change + dup | DP with multiset order + arctic poly | YES (proved) | D33-33.cpf | Accepted | Final “open problem” example[2]; needed DP framework with a Dershowitz–Manna multiset component (handle two recursive calls). |
 > | Endrullis_06/pair2simple2 | duplicating | KBO (weight tweaks) + DP fallback | YES (proved) | pair2simple2.cpf | Accepted | Involves a pair(x,y) function duplicating arguments; oriented by weight order (KBO)[6] after DP preprocessing. |
 > | AG01/3.19 (Arts-Giesl 2000)[8] | duplicating | Dependency Pairs + lex order | YES (TTT2 & AProVE) | AG01-3.19.cpf | Accepted | First solved by the DP method[8] (LPO alone fails); AProVE’s proof uses DP with a reduction pair. |
+
+
+
+

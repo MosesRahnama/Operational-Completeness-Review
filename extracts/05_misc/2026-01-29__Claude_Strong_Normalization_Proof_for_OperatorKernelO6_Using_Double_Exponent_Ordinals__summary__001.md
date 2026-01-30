@@ -1,5 +1,7 @@
+Purpose: Evidence summary (misc/reference). Summary of the Claude strong-normalization proof attempt paper (context/reference).
+Contents: Metadata header + summary excerpt.
 Context: File review extract.
-Source: C:\Users\Moses\OpComp\MUST_Review\Claude-Strong Normalization Proof for OperatorKernelO6 Using Double-Exponent Ordinals.pdf
+Source: OpComp\MUST_Review\Claude-Strong Normalization Proof for OperatorKernelO6 Using Double-Exponent Ordinals.pdf
 SHA256: 491E91D5A9335A41CD92B71C0F7A81F3459A643EFE060B2A681D38B8D3C846D9
 FailureExplanation: PDF document; requires review for technical claims.
 FailureModeTags: 
@@ -15,3 +17,6 @@ Excerpt:
 > hl?a?bRj0[,d,LR,(1K2(l1Z
 > 7an8n<=wJPz"hF@=@]D
 > ck") @
+
+
+

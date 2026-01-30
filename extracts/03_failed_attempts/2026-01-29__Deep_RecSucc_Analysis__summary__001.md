@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; Duplicate of FRV2-0507.
+Contents: Metadata header + excerpt from the source file.
 Context: File review extract.
-Source: C:\Users\Moses\OpComp\MUST_Review\Deep_RecSucc_Analysis.md
+Source: MUST_Review/Deep_RecSucc_Analysis.md
 SHA256: 9905059919C8627E2D90E4C8B8572EBD1673B91E8E9225E0D16CCC5E7BB90469
 FailureExplanation: Analysis or notes documenting failures, blockers, or unproven claims.
 FailureModeTags: constraint_violation
@@ -15,3 +17,7 @@ Excerpt:
 > Increase: +s
 > ```
 > AI sees this! It writes: "The measure increases by s"
+
+
+
+

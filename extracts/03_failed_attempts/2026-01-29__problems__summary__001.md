@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; Duplicate of FRV2-0371.
+Contents: Metadata header + excerpt from the source file.
 Context: Failure catalog or commentary documenting incorrect assumptions or blockers.
-Source: C:\Users\Moses\OpComp\MUST_Review\important_2\problems.md
+Source: MUST_Review/important_2/problems.md
 SHA256: B4FB3EF3D434E00A11F186F154548B71C28E4B66FC613A524088DCEDE089DC38
 FailureExplanation: Failure catalog or commentary documenting incorrect assumptions or blockers.
 FailureModeTags: nonconvergence
@@ -17,3 +19,7 @@ Excerpt:
 > Duplicate “conjecture” section header/declaration. Lines ~249–253 appear twice. Clean duplication so the statement is unique.
 > Scope drift risks. Line 41 makes scope clear (“safe fragment”). Cross-check later sections for any unqualified “unique NFs / confluence” claims; where they’re general background (e.g., Newman's lemma), keep them, but always restate the instantiation is SafeStep.
 > Where blind spots still hide (what to research next)
+
+
+
+

@@ -1,5 +1,7 @@
+Purpose: Evidence extract (tests/test-summary) documenting a failure or relevance; Test result or evaluation summary.
+Contents: Metadata header + excerpt from the source file.
 Context: File review extract.
-Source: C:\Users\Moses\OpComp\MUST_Review\Meta_CodeBundle_Latest_Codes.md
+Source: MUST_Review/Meta_CodeBundle_Latest_Codes.md
 SHA256: 2C2E20B1E254BA4D3B88EC0159F69E65BD828403C982433ABB70DE8F99CC908A
 FailureExplanation: Test result or evaluation summary.
 FailureModeTags: unsupported_inference
@@ -15,3 +17,7 @@ Excerpt:
 > | integrate : Trace  Trace
 > | merge : Trace  Trace  Trace
 > | rec : Trace  Trace  Trace  Trace
+
+
+
+

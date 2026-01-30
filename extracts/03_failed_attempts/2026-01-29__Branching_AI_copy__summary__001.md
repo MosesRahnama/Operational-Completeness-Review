@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; Analysis or notes documenting failures, blockers, or unproven claims.
+Contents: Metadata header + excerpt from the source file.
 Context: File review extract.
-Source: C:\Users\Moses\OpComp\MUST_Review\Branching_AI copy.txt
+Source: MUST_Review/Branching_AI copy.txt
 SHA256: 2E59173578479767BAE4BFCC1C1FE5E7D11BF452C6A4F608952347E180195575
 FailureExplanation: Analysis or notes documenting failures, blockers, or unproven claims.
 FailureModeTags: constraint_violation; proof_obligation_stuck; nonconvergence
@@ -15,3 +17,7 @@ Excerpt:
 >  STRICT EXECUTION CONTRACT (MANDATORY COMPLIANCE)
 > CONTRACT: You MUST obey these gates or explicitly declare CONSTRAINT BLOCKER
 > A) Branch-by-branch rfl gate
+
+
+
+

@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; Analysis or notes documenting failures, blockers, or unproven claims.
+Contents: Metadata header + excerpt from the source file.
 Context: File review extract.
-Source: C:\Users\Moses\OpComp\MUST_Review\Operational_Completeness.md
+Source: MUST_Review/Operational_Completeness.md
 SHA256: 79F33E0515E3D382F001E96E8E54B3B049A5FA322DEF5184F3188AEA8B4B8179
 FailureExplanation: Analysis or notes documenting failures, blockers, or unproven claims.
 FailureModeTags: constraint_violation
@@ -15,3 +17,7 @@ Excerpt:
 > Self referential operator is neccessary for any system to encode arithmetics. Human-like Intelligence does not fail this test, for the same reason that allows human intelligence to hold both Godel Incompleteness and Turing's Halting problem simultaniously.
 > The proposed test is **100% reproducible** and **instantly falsifiable**. Readers are highly encouraged to verify these claims independently.
 > ---
+
+
+
+

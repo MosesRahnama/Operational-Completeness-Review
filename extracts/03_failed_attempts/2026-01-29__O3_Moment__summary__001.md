@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; Analysis or notes documenting failures, blockers, or unproven claims.
+Contents: Metadata header + excerpt from the source file.
 Context: File review extract.
-Source: C:\Users\Moses\OpComp\MUST_Review\O3_Moment.txt
+Source: MUST_Review/O3-Moment.md
 SHA256: F0577D4BEA2D30B4296065A907AD174DAC8237079AA4DF343547287F2688CDE7
 FailureExplanation: Analysis or notes documenting failures, blockers, or unproven claims.
 FailureModeTags: constraint_violation; nonconvergence
@@ -15,3 +17,7 @@ Excerpt:
 > with base = max ( b) ( s) ( n). Everywhere else  just mirrors subterm maxima. 2. **Good News** decreases on seven of the eight rules. 3. **Failure Mode**If n itself is a  m, we have
 > (merge s (rec  n)) = base + 1 = (rec  ( n))
 > so no strict drop  the lexicographic engine stalls. *Lesson*A constant +1 bump cannot see *nested* s. -------------------------------------------------------------------- D.  + 2, +3,   _Constant Escalation _ -------------------------------------------------------------------- 1. **Motivation**Try to create slack: base+2, base+3, etc. 2. **Result**Fails for exactly the same reason: when n =  m, the base itself is unaffected, so both sides rise by **the same constant**. Equality persists; no decrease. Any finite constant shift can be defeated by a second nested . *Lesson*Uniform additive constants cannot guarantee strict drop; we need **shape-sensitive** information. -------------------------------------------------------------------- E.  +  Lexicographic (Termination_Lex revamp) -------------------------------------------------------------------- 1. **Attempt**Keep  at +1, let  finish the job when  ties. 2. **Hurdle**Required resurrecting the *false* rec_succ_boundthe very thing we swore off. 3. **Status**Abandoned. *Lesson*Handing the problem back to  just re-introduces the falsity. -------------------------------------------------------------------- F.  + 2 with max- lemmas (KappaPlus2.lean) -------------------------------------------------------------------- 1. **Try**Proved helper kappa_drop_recSucc : (merge ) < (rec   _). 2. **Root Cause of Failure** The key inequality used
+
+
+
+

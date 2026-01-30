@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; Duplicate of FRV2-0457.
+Contents: Metadata header + excerpt from the source file.
 Context: File review extract.
-Source: C:\Users\Moses\OpComp\MUST_Review\AI-Vocabulary-Control-System.md
+Source: MUST_Review/AI-Vocabulary-Control-System.md
 SHA256: 044DC3F6780EEBA2BD362896383F79302F1CABD28218DDF5BB1B728FCA5449DE
 FailureExplanation: Analysis or notes documenting failures, blockers, or unproven claims.
 FailureModeTags: constraint_violation; inconsistency
@@ -15,3 +17,7 @@ Excerpt:
 > Controlled Vocabulary Editing System for Academic
 > Manuscript
 > The Core Problem
+
+
+
+

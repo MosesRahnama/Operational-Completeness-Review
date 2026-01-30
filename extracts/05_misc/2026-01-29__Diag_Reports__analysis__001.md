@@ -1,5 +1,7 @@
+Purpose: Evidence extract (misc/analysis) documenting a failure or relevance; Diagnostic analysis; not direct evidence of model failure.
+Contents: Metadata header + excerpt from the source file.
 Context: Diagnostic report summarizing StrongNormal.lean errors and fixes.
-Source: C:\Users\Moses\OpComp\MUST_Review\MetaMD_Archive\Diag_Reports.md
+Source: MUST_Review/MetaMD_Archive/Diag_Reports.md
 SHA256: C138CEF27FE2EF56AD7E2E7E849AF1A1A1A1797231FBFE4329BB5F7561658037
 FailureExplanation: Diagnostic analysis; not direct evidence of model failure.
 FailureModeTags: 
@@ -101,3 +103,7 @@ Excerpt:
 > non-blocking lint
 > Unused variable hκ at line 94: rename to _hκ or use it.
 > Unused simp args: remove from simp lists.
+
+
+
+

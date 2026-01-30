@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; The document labels MuCore fully green while also listing missing rec_succ and deferred eq_diff proofs, showing termination support is incomplete.
+Contents: Metadata header + excerpt from the source file.
 Context: Excerpt from math_docs summarizing MuCore status and explicitly listing missing rec_succ and deferred eq_diff proofs.
-Source: C:\Users\Moses\OpComp\MUST_Review\Legacy\MetaMD_Archive\math_docs.md
+Source: Legacy/MetaMD_Archive/math_docs.md
 SHA256: 699B5EC35C5701875F3AA2B1607A63EAF302CFB5C829983EF52D02DFCDDB48BE
 FailureExplanation: The document labels MuCore fully green while also listing missing rec_succ and deferred eq_diff proofs, showing termination support is incomplete.
 FailureModeTags: inconsistency; unsupported_inference
@@ -94,3 +96,7 @@ Excerpt:
 > **Import status**: MuCore.lean has minimal dependencies and compiles cleanly, making it a stable foundation for any termination proof strategy.
 > 
 > ---
+
+
+
+

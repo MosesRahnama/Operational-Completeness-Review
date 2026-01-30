@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; Analysis or notes documenting failures, blockers, or unproven claims.
+Contents: Metadata header + excerpt from the source file.
 Context: File review extract.
-Source: C:\Users\Moses\OpComp\MUST_Review\EXTRACTED_ISSUES_FROM_ASSESSMENTS.md
+Source: MUST_Review/EXTRACTED_ISSUES_FROM_ASSESSMENTS.md
 SHA256: BB5275A57E60BAEFB67D54D88FC20182D5BDFACF72BD042727912AC63721E3BE
 FailureExplanation: Analysis or notes documenting failures, blockers, or unproven claims.
 FailureModeTags: proof_obligation_stuck
@@ -15,3 +17,7 @@ Excerpt:
 > - **Issue**: "unsafe ones kept commented to preserve green build" - Some unsafe examples are commented out rather than properly handled
 > ### Line 14: Full Step Caveat
 > - **Issue**: "`not_localJoin_eqW_refl_when_kappa_zero` blocks local confluence at eqW reflexive root"
+
+
+
+

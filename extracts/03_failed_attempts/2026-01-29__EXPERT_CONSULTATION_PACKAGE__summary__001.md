@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; Analysis or notes documenting failures, blockers, or unproven claims.
+Contents: Metadata header + excerpt from the source file.
 Context: File review extract.
-Source: C:\Users\Moses\OpComp\MUST_Review\EXPERT_CONSULTATION_PACKAGE.md
+Source: MUST_Review/EXPERT_CONSULTATION_PACKAGE.md
 SHA256: 48B9B5C0AF2BB5051F12D6CCEBF3B8260524DC15BE62C29838BAA186A9B6BA39
 FailureExplanation: Analysis or notes documenting failures, blockers, or unproven claims.
 FailureModeTags: constraint_violation; nonconvergence
@@ -15,3 +17,7 @@ Excerpt:
 > **YOUR EXPERTISE NEEDED**: Advanced ordinal theory in Lean 4/Mathlib context to resolve compilation errors blocking strong normalization proof.
 > **EXPECTED OUTPUT**: Specific Lean 4 code solutions, alternative approaches, or mathematical redesign recommendations with concrete implementation guidance.
 > **ATTACHED FILES INCLUDE**:
+
+
+
+

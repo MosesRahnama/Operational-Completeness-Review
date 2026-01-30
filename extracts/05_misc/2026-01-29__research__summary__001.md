@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; Duplicate of FRV2-0418.
+Contents: Metadata header + excerpt from the source file.
 Context: Compiled research notes; not a proof artifact.
-Source: C:\Users\Moses\OpComp\MUST_Review\important_2\research.md
+Source: MUST_Review/important_2/research.md
 SHA256: C5B32A19D8B17C9EA4F89E7DDA9A03DB1DBEC8E23A56B0B5D197BDB852CF8250
 FailureExplanation: Compiled research notes; not a proof artifact.
 FailureModeTags: 
@@ -17,3 +19,7 @@ Excerpt:
 > components ordered lexicographically: (1) a binary “phase” flag (to handle a change that occurs in
 > one particular recursive rule), (2) a multiset extension of a rank function	(using the Dershowitz–
 > Manna multiset ordering  ), and (3) an ordinal-valued component for tie-breaking on non- duplicating parts  . Using a multiset in the measure is crucial – it allows the measure to drop even when one rewrite step produces two copies of a subterm, by viewing the collection of subterms as a multiset whose overall “size” decreases  . This approach builds on known termination techniques in literature (Dershowitz-Manna multiset order and recursive path orderings   ) but tailors them in a novel combination for KO7’s specific rules. The result is a clean, formal proof of termination: for
+
+
+
+

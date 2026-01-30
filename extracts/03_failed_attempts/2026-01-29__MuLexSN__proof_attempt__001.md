@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/proof-attempt) documenting a failure or relevance; Duplicate of Legacy\\MetaMD_Archive\\MuLexSN.md.
+Contents: Metadata header + excerpt from the source file.
 Context: Excerpt from MuLexSN showing the kappaTop measure and μκ_decreases proof that assumes kappaTop equality by simp across all rules.
-Source: C:\Users\Moses\OpComp\MUST_Review\Legacy\MetaMD_Archive\MuLexSN.md
+Source: Legacy/MetaMD_Archive/MuLexSN.md
 SHA256: C25EA607D49BD25954E719648A67C9DE2048DC3C0E35870BF9BE0711E1F4AC5C
 FailureExplanation: The kappaTop bit increases on rules like merge-void/rec_zero, so the lex proof wrongly assumes kappaTop equality via simp.
 FailureModeTags: nondecreasing_measure; unsupported_inference
@@ -62,3 +64,7 @@ Excerpt:
 >   lift_mu_drop (MetaSN.mu_lt_eq_diff _ _) (by simp [kappaTop])
 > 
 > /-- Strong normalization via lexicographic (kappaTop, μ). -/
+
+
+
+

@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; Duplicate of MUST_Review\Legacy\Meta_Lean_Archive\Measure.lean.
+Contents: Metadata header + excerpt from the source file.
 Context: Excerpt from Measure.lean focusing on the Step.R_rec_succ case for lexicographic decrease using MetaSN.mu and rec_succ_bound.
-Source: C:\Users\Moses\OpComp\MUST_Review\Legacy\Meta_Lean_Archive\Measure.lean
+Source: MUST_Review/Legacy/Meta_Lean_Archive/Measure.lean
 SHA256: 1B039976AEE7ED6DB15CCB693A83235F738068018D742E5568FC5005B3048C82
 FailureExplanation: The rec_succ decrease relies on legacy MetaSN lemmas/bounds (e.g., rec_succ_bound, mu_lt_rec_succ) that are not derived here, indicating an external/unsupported dependency.
 FailureModeTags: unsupported_inference; constraint_violation
@@ -80,3 +82,7 @@ Excerpt:
 >         have h_lhs : kappa (recΔ b s (delta (eqW a c))) = base + 1 := by
 >           simp [kappa_rec_delta, base]
 >         exact drop_left (by simpa [h_rhs, h_lhs] using Nat.lt_succ_self base)
+
+
+
+

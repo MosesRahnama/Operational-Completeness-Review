@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; Analysis or notes documenting failures, blockers, or unproven claims.
+Contents: Metadata header + excerpt from the source file.
 Context: File review extract.
-Source: C:\Users\Moses\OpComp\MUST_Review\flaws.txt
+Source: MUST_Review/flaws.txt
 SHA256: 704860FB8882D57CAA821F23AFF6EADA479449324483655E9BF86A6DBEE203A1
 FailureExplanation: Analysis or notes documenting failures, blockers, or unproven claims.
 FailureModeTags: constraint_violation
@@ -15,3 +17,7 @@ Excerpt:
 > FailureReenactments.md
 > File
 > PredictionRoadmap.md
+
+
+
+

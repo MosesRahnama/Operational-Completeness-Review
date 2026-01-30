@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; Duplicate of FRV2-0697.
+Contents: Metadata header + excerpt from the source file.
 Context: File review extract.
-Source: C:\Users\Moses\OpComp\MUST_Review\Why_RecSucc_Matters.md
+Source: MUST_Review/Why_RecSucc_Matters.md
 SHA256: 631EF108F8D919C9212271075C7BA202B26FBCEE2E83570155C30FE1B5563F9C
 FailureExplanation: Analysis or notes documenting failures, blockers, or unproven claims.
 FailureModeTags: constraint_violation
@@ -15,3 +17,7 @@ Excerpt:
 > 2. Perform basic arithmetic (addition, multiplication)
 > 3. Implement recursion (doing something repeatedly)
 > 4. Test for equality (comparing things)
+
+
+
+

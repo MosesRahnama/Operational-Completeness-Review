@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/code) documenting a failure or relevance; Rec_succ delta case uses a sorry-bound ordinal inequality that is mathematically false, so the proof is incomplete.
+Contents: Metadata header + excerpt from the source file.
 Context: Full Claude_SN.lean proof attempt for strong normalization, containing a sorry-bound in the rec_succ delta case.
-Source: C:\Users\Moses\OpComp\MUST_Review\Legacy\MetaMD_Archive\Claude_SN.md
+Source: Legacy/MetaMD_Archive/Claude_SN.md
 SHA256: 71610E31ABBE514DA8B9030271AEAF28E09011186EEB88556A6C3547CE7CBFC2
 FailureExplanation: The rec_succ delta case relies on an unprovable ordinal inequality (left as sorry), so the proof is incomplete.
 FailureModeTags: unsupported_inference; proof_obligation_stuck; nondecreasing_measure
@@ -217,3 +219,7 @@ end ClaudeSN
 export ClaudeSN (strong_normalization)
 
 ```
+
+
+
+

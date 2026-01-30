@@ -1,5 +1,7 @@
+Purpose: Evidence extract (misc/analysis) documenting a failure or relevance; Reference or planning document; not a proof artifact.
+Contents: Metadata header + excerpt from the source file.
 Context: File review extract.
-Source: C:\Users\Moses\OpComp\MUST_Review\ordinal-toolkit.md
+Source: MUST_Review/ordinal-toolkit.md
 SHA256: 2B2DAA1E88DAA6750B39586236124DE6ACF7056085961F54622D53854F10E896
 FailureExplanation: Reference or planning document; not a proof artifact.
 FailureModeTags: 
@@ -15,3 +17,7 @@ Excerpt:
 > > Use exactly these modules; the righthand column clarifies *what is found where*. Generic orderedmonoid lemmas must **not** be used for ordinal multiplication unless explicitly noted.
 > | Area                          | Correct import                                   | Contains / Notes                                                                                                                                                 |
 > | ----------------------------- | ------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+
+
+
+

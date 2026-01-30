@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; Uses deltaFlag and ? +2 bump to force strict drop, while depending on external MetaSN ? lemmas.
+Contents: Metadata header + excerpt from the source file.
 Context: SN_Final.lean excerpt showing the deltaFlag primary bit and κ with +2 bump at recΔ (delta _), used in a lexicographic termination measure.
-Source: C:\Users\Moses\OpComp\MUST_Review\Legacy\Meta_Lean_Archive\SN_Final.lean
+Source: MUST_Review/Legacy/Meta_Lean_Archive/SN_Final.lean
 SHA256: 55B2AD5600522515D9AA51729D5628CE39504DF5DD36B235B773F3F045BFB180
 FailureExplanation: Termination is forced by ad hoc measure tweaks (deltaFlag + κ +2) and still relies on external MetaSN μ-drop lemmas.
 FailureModeTags: nondecreasing_measure; unsupported_inference
@@ -121,3 +123,7 @@ Excerpt:
 >
 > -- set_option trace.Elab.process true
 > /-- Every primitive step strictly decreases the lexicographic measure. -/
+
+
+
+

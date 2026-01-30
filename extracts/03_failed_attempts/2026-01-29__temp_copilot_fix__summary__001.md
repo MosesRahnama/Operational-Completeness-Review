@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; Analysis or notes documenting failures, blockers, or unproven claims.
+Contents: Metadata header + excerpt from the source file.
 Context: File review extract.
-Source: C:\Users\Moses\OpComp\MUST_Review\temp_copilot_fix.md
+Source: MUST_Review/temp_copilot_fix.md
 SHA256: 1E64C165C5ECBEC4205280ECC28CD584F1449A718473F15269B1EC232FD54790
 FailureExplanation: Analysis or notes documenting failures, blockers, or unproven claims.
 FailureModeTags: 
@@ -15,3 +17,7 @@ Excerpt:
 > ```jsonc
 > // CRITICAL: Force temperature = 1 for ALL OpenAI models (including O3)
 > "github.copilot.advanced": {
+
+
+
+

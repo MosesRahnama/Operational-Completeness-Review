@@ -1,5 +1,7 @@
+Purpose: Evidence extract (misc/analysis) documenting a failure or relevance; Definitions only; no termination proof or evidence.
+Contents: Metadata header + excerpt from the source file.
 Context: Meta.lean definitions of auxiliary measures and helpers (no proofs).
-Source: C:\Users\Moses\OpComp\MUST_Review\MetaMD_Archive\Meta.md
+Source: MUST_Review/MetaMD_Archive/Meta.md
 SHA256: 6D44D3C69D8EDA1B8F11FA7EE8335693E7AFD485D7242ED66AEB4A421B1CBC01
 FailureExplanation: Definitions only; no termination proof or evidence.
 FailureModeTags: 
@@ -82,3 +84,7 @@ Excerpt:
 > def num3 : Trace := delta num2
 >
 > def succ (t : Trace) : Trace := delta t
+
+
+
+

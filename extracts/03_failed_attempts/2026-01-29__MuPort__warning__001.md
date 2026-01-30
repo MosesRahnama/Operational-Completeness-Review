@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; Duplicate of MUST_Review\Legacy\Meta_Lean_Archive\MuPort.lean.
+Contents: Metadata header + excerpt from the source file.
 Context: MuPort.lean contains explicit warnings that the approach is doomed and should not be used, with supporting lemmas.
-Source: C:\Users\Moses\OpComp\MUST_Review\Legacy\Meta_Lean_Archive\MuPort.lean
+Source: MUST_Review/Legacy/Meta_Lean_Archive/MuPort.lean
 SHA256: A97B752FF05C6ABC695AA4198FCFDC0A289C189A7735B59F162C777B64DC7111
 FailureExplanation: The file is explicitly marked as a failed/forbidden approach, indicating prior nonconvergence and incorrect strategy (e.g., rec_succ_bound).
 FailureModeTags: nonconvergence
@@ -61,3 +63,7 @@ Excerpt:
 >   simpa [add_assoc] using hsum'
 >
 > /-- Helper: bound merge head contribution under ω^(μ a + μ b + 5). -/
+
+
+
+

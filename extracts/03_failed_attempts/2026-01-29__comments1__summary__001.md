@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; Failure catalog or commentary documenting incorrect assumptions or blockers.
+Contents: Metadata header + excerpt from the source file.
 Context: Failure catalog or commentary documenting incorrect assumptions or blockers.
-Source: C:\Users\Moses\OpComp\MUST_Review\important_2\archive\comments1.md
+Source: MUST_Review/important_2/archive/comments1.md
 SHA256: 4F0ED675C8E02487AB2C4DCFA910BD8729F1C1F0262CB07C7C0653C1424133F7
 FailureExplanation: Failure catalog or commentary documenting incorrect assumptions or blockers.
 FailureModeTags: unsupported_inference
@@ -17,3 +19,7 @@ Excerpt:
 > PA: Peano Arithmetic. Goodstein and hydra terminations are true but unprovable in PA; any KO7 whose internal methods interpret within PA cannot prove those terminations.
 > Tighter statement: choose the weakest theory T that soundly formalizes your internal method class; then “there exists a KO7‑rule whose termination is true but not provable in T”.
 > Decidability link.
+
+
+
+

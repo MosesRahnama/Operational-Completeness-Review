@@ -1,5 +1,7 @@
+Purpose: Evidence extract (misc/reference) documenting a failure or relevance; Background research memo; not a proof artifact.
+Contents: Metadata header + excerpt from the source file.
 Context: Background research memo; not a proof artifact.
-Source: C:\Users\Moses\OpComp\MUST_Review\important_2\Research\KO7_Normalizer_Technical_Evaluation_and_Analysis.md
+Source: MUST_Review/important_2/Research/KO7_Normalizer_Technical_Evaluation_and_Analysis.md
 SHA256: 6E7BD484EDE33CDE23FAE3D9A5506785BAD9B58ED3E451C8B6CD5D3FBEB869A3
 FailureExplanation: Background research memo; not a proof artifact.
 FailureModeTags: 
@@ -17,3 +19,7 @@ Excerpt:
 > The KO7 paper's triple-lexicographic termination measure represents a sophisticated approach
 > to handling complex rewrite systems with duplicating rules. The combination of (δ-flag, κ^M
 > multiset, μ ordinal) addresses three distinct challenges: phase control, structural complexity, and
+
+
+
+

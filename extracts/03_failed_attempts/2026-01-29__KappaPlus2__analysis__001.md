@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; Duplicate of MUST_Review\Legacy\Meta_Lean_Archive\KappaPlus2.lean.
+Contents: Metadata header + excerpt from the source file.
 Context: Excerpt from KappaPlus2.lean redefining κ with a +2 bump on recΔ δ-case and proving strict drop for rec-succ.
-Source: C:\Users\Moses\OpComp\MUST_Review\Legacy\Meta_Lean_Archive\KappaPlus2.lean
+Source: MUST_Review/Legacy/Meta_Lean_Archive/KappaPlus2.lean
 SHA256: 78D6644CB5C567A2A4355E9145CE45F6E5A6D73DE974A010445DDC9CE4CA9A30
 FailureExplanation: The measure is altered with an ad hoc +2 bump to force a strict drop, changing the intended invariant rather than resolving the underlying recursion/duplication issue.
 FailureModeTags: nondecreasing_measure
@@ -59,3 +61,7 @@ Excerpt:
 >   have : kappa (merge s (recΔ b s n)) < base + 3 :=
 >     lt_of_le_of_lt h_merge (lt_succ_self _)
 >   simpa [h_rhs] using this
+
+
+
+

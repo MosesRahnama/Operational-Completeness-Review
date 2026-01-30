@@ -1,5 +1,7 @@
+Purpose: Evidence extract (misc/pdf) documenting a failure or relevance; PDF document; requires review for technical claims.
+Contents: Metadata header + excerpt from the source file.
 Context: File review extract.
-Source: C:\Users\Moses\OpComp\MUST_Review\AI_Retardation_Differential_Diagnostic.pdf
+Source: MUST_Review/AI_Retardation_Differential_Diagnostic.pdf
 SHA256: 246636FBDE3ADF56B36483DAC2499B121C14BFCD9ECFBE9FDB0DFB3839ADC2EA
 FailureExplanation: PDF document; requires review for technical claims.
 FailureModeTags: 
@@ -15,3 +17,7 @@ Excerpt:
 > endobj
 > 3 0 obj
 > <</ca 1
+
+
+
+

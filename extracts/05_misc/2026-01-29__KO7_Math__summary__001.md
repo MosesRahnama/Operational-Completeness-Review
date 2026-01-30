@@ -1,5 +1,7 @@
+Purpose: Evidence extract (misc/analysis) documenting a failure or relevance; Reference or planning document; not a proof artifact.
+Contents: Metadata header + excerpt from the source file.
 Context: File review extract.
-Source: C:\Users\Moses\OpComp\MUST_Review\KO7_Math.md
+Source: MUST_Review/KO7_Math.md
 SHA256: 5E7C4D93F23DF9227C93312F936294CD8FCD8193033F6CD26946DC4542FC7B9A
 FailureExplanation: Reference or planning document; not a proof artifact.
 FailureModeTags: 
@@ -15,3 +17,7 @@ Excerpt:
 > ## 1Kernel Recap
 > Operators (constructors of `Trace`):
 > ```
+
+
+
+

@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; Duplicate of FRV2-0690.
+Contents: Metadata header + excerpt from the source file.
 Context: File review extract.
-Source: C:\Users\Moses\OpComp\MUST_Review\Why_AI_Fails_At_RecSucc_Logic.pdf
+Source: MUST_Review/Why_AI_Fails_At_RecSucc_Logic.md
 SHA256: E6B8AC71CE93EDDAA3BA0A69E8329A037DF01B6170BC0C1348F519FA8F5F7EBC
 FailureExplanation: Analysis or notes documenting failures, blockers, or unproven claims.
 FailureModeTags: 
@@ -15,3 +17,7 @@ Excerpt:
 > endobj
 > 3 0 obj
 > <</ca 1
+
+
+
+

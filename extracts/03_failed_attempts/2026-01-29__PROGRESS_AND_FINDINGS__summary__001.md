@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; Duplicate of FRV2-0641.
+Contents: Metadata header + excerpt from the source file.
 Context: File review extract.
-Source: C:\Users\Moses\OpComp\MUST_Review\PROGRESS_AND_FINDINGS.md
+Source: MUST_Review/PROGRESS_AND_FINDINGS.md
 SHA256: 5DC533959FF7E30B085EA49AB4A012F9D10B62EFEF5B3AA3B8CC9D6C43AC590B
 FailureExplanation: Analysis or notes documenting failures, blockers, or unproven claims.
 FailureModeTags: constraint_violation
@@ -15,3 +17,7 @@ Excerpt:
 > 3. **Impossibility results**: Formal proofs that simpler measures fail
 > ###  In Progress
 > 1. **Operational incompleteness**: Connection established but not fully formalized
+
+
+
+

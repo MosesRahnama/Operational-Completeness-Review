@@ -1,5 +1,7 @@
+Purpose: Evidence extract (misc/analysis) documenting a failure or relevance; Duplicate of FRV2-0067.
+Contents: Metadata header + excerpt from the source file.
 Context: End-of-day status report summarizing SN proof state and next steps (Dec 2024).
-Source: C:\Users\Moses\OpComp\MUST_Review\MetaMD_Archive\EOD_Report_2024.md
+Source: MUST_Review/MetaMD_Archive/EOD_Report_2024.md
 SHA256: E5B74F156A1333B6B3EE2B51806DD78C3836B282F22B313E814FB92404DACF29
 FailureExplanation: Status summary; not direct evidence of failure.
 FailureModeTags: 
@@ -124,3 +126,7 @@ Excerpt:
 > ---
 >
 > ## âš ï¸ Critical Warnings
+
+
+
+

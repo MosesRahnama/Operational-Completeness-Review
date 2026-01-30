@@ -1,5 +1,7 @@
+Purpose: Evidence extract (misc/pdf) documenting a failure or relevance; Duplicate of FRV2-0563.
+Contents: Metadata header + excerpt from the source file.
 Context: File review extract.
-Source: C:\Users\Moses\OpComp\MUST_Review\Latest Updates.pdf
+Source: MUST_Review/Latest Updates.pdf
 SHA256: AE72DD15A3F6B8B994499C1C0266BDE9E9838020EC15A331DF22E10926FF1500
 FailureExplanation: PDF document; requires review for technical claims.
 FailureModeTags: 
@@ -15,3 +17,7 @@ Excerpt:
 > endobj
 > 3 0 obj
 > <</ca 1
+
+
+
+

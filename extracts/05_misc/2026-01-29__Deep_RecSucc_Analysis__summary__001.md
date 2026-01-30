@@ -1,5 +1,7 @@
+Purpose: Evidence summary (misc/reference). Summary of the Deep RecSucc Analysis note (context/reference).
+Contents: Metadata header + summary excerpt.
 Context: File review extract.
-Source: C:\Users\Moses\OpComp\MUST_Review\Deep_RecSucc_Analysis.pdf
+Source: OpComp\MUST_Review\Deep_RecSucc_Analysis.pdf
 SHA256: 0789BB40777DF428EB9BDE4ABFB0DF526DC07D8FC4E205657721A0B45678546A
 FailureExplanation: PDF document; requires review for technical claims.
 FailureModeTags: 
@@ -15,3 +17,6 @@ Excerpt:
 > endobj
 > 3 0 obj
 > <</ca 1
+
+
+

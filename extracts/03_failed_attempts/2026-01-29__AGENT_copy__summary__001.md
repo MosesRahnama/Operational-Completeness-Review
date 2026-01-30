@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; Duplicate of FRV2-0451.
+Contents: Metadata header + excerpt from the source file.
 Context: File review extract.
-Source: C:\Users\Moses\OpComp\MUST_Review\AGENT copy.md
+Source: MUST_Review/AGENT copy.md
 SHA256: BE9DED24053DD9464CC16C628140308AE5BC13B3058ABEC4970C721040747318
 FailureExplanation: Analysis or notes documenting failures, blockers, or unproven claims.
 FailureModeTags: constraint_violation; inconsistency; nonconvergence
@@ -15,3 +17,7 @@ Excerpt:
 > - FixpointWitness, fixedpoint_of_idempotent
 > - negation, Provable, , G
 > TASK TYPES:
+
+
+
+

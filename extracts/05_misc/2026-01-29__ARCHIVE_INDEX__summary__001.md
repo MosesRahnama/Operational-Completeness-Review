@@ -1,5 +1,7 @@
+Purpose: Evidence extract (misc/guide) documenting a failure or relevance; Duplicate of FRV2-0471.
+Contents: Metadata header + excerpt from the source file.
 Context: File review extract.
-Source: C:\Users\Moses\OpComp\MUST_Review\ARCHIVE_INDEX.md
+Source: MUST_Review/ARCHIVE_INDEX.md
 SHA256: 836E3A86BF84B8F274325E938455B54F886D407DC53908E8ED6D173A1EB5A6DF
 FailureExplanation: Guidance or index document; not a proof artifact.
 FailureModeTags: 
@@ -15,3 +17,7 @@ Excerpt:
 > 2. **The_Measurement_Solution_Speculative_Addendum.md**
 > - Speculative extensions including dark matter and consciousness
 > - Novel particle predictions
+
+
+
+

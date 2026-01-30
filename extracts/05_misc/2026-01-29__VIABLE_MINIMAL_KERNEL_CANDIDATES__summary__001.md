@@ -1,5 +1,7 @@
+Purpose: Evidence extract (misc/pdf) documenting a failure or relevance; PDF document; requires review for technical claims.
+Contents: Metadata header + excerpt from the source file.
 Context: File review extract.
-Source: C:\Users\Moses\OpComp\MUST_Review\VIABLE MINIMAL-KERNEL CANDIDATES.pdf
+Source: MUST_Review/VIABLE MINIMAL-KERNEL CANDIDATES.docx
 SHA256: A35F68A1C41E9B9FE117319C15893E8A7A46D46EA9665C7F55A4F2FA1E613951
 FailureExplanation: PDF document; requires review for technical claims.
 FailureModeTags: 
@@ -15,3 +17,7 @@ Excerpt:
 > /ModDate (D:20250814080121+00'00')>>
 > endobj
 > 3 0 obj
+
+
+
+

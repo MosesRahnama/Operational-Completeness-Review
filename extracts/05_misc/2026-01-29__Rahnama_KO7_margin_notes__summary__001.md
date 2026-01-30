@@ -1,5 +1,7 @@
+Purpose: Evidence extract (misc/reference) documenting a failure or relevance; Duplicate of FRV2-0372.
+Contents: Metadata header + excerpt from the source file.
 Context: Author notes/tables; not a proof artifact.
-Source: C:\Users\Moses\OpComp\MUST_Review\important_2\Rahnama_KO7_margin_notes.md
+Source: MUST_Review/important_2/Rahnama_KO7_margin_notes.md
 SHA256: 645E5634F9BE6B1DDA293C66A413E40A1EDD4CA18A5930B4EB9A553BB60911EC
 FailureExplanation: Author notes/tables; not a proof artifact.
 FailureModeTags: 
@@ -17,3 +19,7 @@ Excerpt:
 > **Seen on pages:** 2, 3, 5, 6, 9, 10, 11
 > **Replace:**
 > > merge t t → t
+
+
+
+

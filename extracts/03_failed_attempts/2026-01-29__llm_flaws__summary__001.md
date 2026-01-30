@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; Duplicate of FRV2-0568.
+Contents: Metadata header + excerpt from the source file.
 Context: File review extract.
-Source: C:\Users\Moses\OpComp\MUST_Review\llm-flaws.txt
+Source: MUST_Review/llm-flaws.txt
 SHA256: 696667E8BAE678799E1DB61710D4B96B72CEFF2E00F4C82F75A1EB556FBF1DAE
 FailureExplanation: Analysis or notes documenting failures, blockers, or unproven claims.
 FailureModeTags: constraint_violation; nonconvergence
@@ -15,3 +17,7 @@ Excerpt:
 > (rec  ( n)) = base + 1
 > (rec   n   ) = base       -- for all other n
 > with base = max ( b) ( s) ( n). Everywhere else  just mirrors subterm maxima. 2. **Good News** decreases on seven of the eight rules. 3. **Failure Mode**If n itself is a  m, we have
+
+
+
+

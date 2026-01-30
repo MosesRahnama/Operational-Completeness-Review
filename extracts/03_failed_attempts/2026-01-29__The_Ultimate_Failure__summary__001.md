@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; Analysis or notes documenting failures, blockers, or unproven claims.
+Contents: Metadata header + excerpt from the source file.
 Context: File review extract.
-Source: C:\Users\Moses\OpComp\MUST_Review\The_Ultimate_Failure.md
+Source: MUST_Review/The_Ultimate_Failure.md
 SHA256: 73385DE2E6547B9C7FE0B8200EEF6C3A18663DEC250DBED597AFB339725D266E
 FailureExplanation: Analysis or notes documenting failures, blockers, or unproven claims.
 FailureModeTags: constraint_violation
@@ -15,3 +17,7 @@ Excerpt:
 > ## 2. The Mathematical Impasse
 > To prove termination, we need a measure $M$ such that:
 > $M(\text{LHS}) > M(\text{RHS})$
+
+
+
+

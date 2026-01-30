@@ -1,5 +1,7 @@
+Purpose: Evidence extract (misc/reference) documenting a failure or relevance; Background research memo; not a proof artifact.
+Contents: Metadata header + excerpt from the source file.
 Context: Background research memo; not a proof artifact.
-Source: C:\Users\Moses\OpComp\MUST_Review\important_2\Research\Term_Rewriting_Systems_(TRS)_Fundamentals_and_Examples.md
+Source: MUST_Review/important_2/Research/Term_Rewriting_Systems_(TRS)_Fundamentals_and_Examples.md
 SHA256: 159006E5213AA8465873AA4890B85EC0400458AB5AB2B2BB936A500B46920EC7
 FailureExplanation: Background research memo; not a proof artifact.
 FailureModeTags: 
@@ -17,3 +19,7 @@ Excerpt:
 > Rewrite Rules: A rewrite rule is a pair of terms (l, r) usually written as l → r, where l (left-hand side) and r (right-hand side) are terms over the signature[10][1]. The rule means that any occurrence of a subterm matching the pattern l may be replaced by the corresponding instance of r. To "match the pattern l" means there is some way to substitute actual subterms for the variables in l such that it becomes identical to the subterm we found in a larger term. Formally, if there is a substitution σ mapping the variables in l to some terms such that lσ equals a subterm of the term in question, then we can replace that subterm by rσ[11][12]. Here, σ is like an assignment that makes the pattern fit the specific case. The part of the term that matches lσ is called a redex (reducible expression) – it's the piece that can be rewritten[13]. When we replace it with rσ, we call rσ the contractum (the result of the contraction). Intuitively, the left side is a pattern to find, and the right side is how to replace that pattern.
 > Important: In a well-formed TRS, the left-hand side of a rule should not be a bare variable, and any variable on the right-hand side should also appear on the left-hand side[14]. These conditions prevent rules from being trivial or introducing “new” unknown values out of thin air. For example, a rule _ → 0 (where _ matches anything) would be ill-formed because the left is just a wildcard variable pattern – applying it would non-sensically replace any term by 0. Similarly, a rule like x → f(y) is not allowed if y wasn’t already in the left side, because it would create new content (y) that wasn’t part of the matched term.
 > Example – A Simple Rewrite Rule: Consider a rule for simplifying addition with zero:
+
+
+
+

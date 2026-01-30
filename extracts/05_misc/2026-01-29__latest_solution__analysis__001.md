@@ -1,5 +1,7 @@
+Purpose: Evidence extract (misc/analysis) documenting a failure or relevance; Design/triage notes; not direct failure evidence.
+Contents: Metadata header + excerpt from the source file.
 Context: Latest solution notes and constraint blockers; long-form guidance.
-Source: C:\Users\Moses\OpComp\MUST_Review\MetaMD_Archive\latest_solution.md
+Source: MUST_Review/MetaMD_Archive/latest_solution.md
 SHA256: FE25EA023EE8F8499B3759F8055702C35FD7564A825D64A3A9083C8D1C9C560A
 FailureExplanation: Design/triage notes; not direct failure evidence.
 FailureModeTags: 
@@ -681,3 +683,7 @@ Excerpt:
 > Request for GPT-Claude Opus
 > Reasoned for 6m 52s
 > alright â€” deep breath. i went through your bundle again and focused on the new â€œMeasure.leanâ€ situation and the eq-diff Î¼â€‘drop. hereâ€™s the bottom line and a clean plan you can paste in.
+
+
+
+

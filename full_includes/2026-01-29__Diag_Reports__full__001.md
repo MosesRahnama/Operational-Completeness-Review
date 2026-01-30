@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; Duplicate of Legacy\MetaMD_Archive\Diag_Reports.md.
+Contents: Metadata header + excerpt from the source file.
 Context: Diagnostic reports for StrongNormal.lean, grouping errors by root cause and pointing to missing lemmas and pattern mismatches.
-Source: C:\Users\Moses\OpComp\MUST_Review\Legacy\MetaMD_Archive\Diag_Reports.md
+Source: Legacy/MetaMD_Archive/Diag_Reports.md
 SHA256: C138CEF27FE2EF56AD7E2E7E849AF1A1A1A1797231FBFE4329BB5F7561658037
 FailureExplanation: Reports document proof failures (kappa definitional issues, ordinal arithmetic mismatches, missing mu_lt_eq_diff), evidencing nonconvergence in the SN harness.
 FailureModeTags: proof_obligation_stuck; invalid_rewrite; type_mismatch; nonconvergence
@@ -295,3 +297,7 @@ Summary of blocking fixes
 
 Until items 1–3 are addressed Lean stops at the earliest failure, so the
 rest of the file is never type-checked.
+
+
+
+

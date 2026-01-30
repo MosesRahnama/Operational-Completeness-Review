@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; Duplicate of MUST_Review\Legacy\Meta_Lean_Archive\Termination_Legacy.lean.
+Contents: Metadata header + excerpt from the source file.
 Context: Termination_Legacy.lean includes a parameterized bound for recΔ successor instead of a proof.
-Source: C:\Users\Moses\OpComp\MUST_Review\Legacy\Meta_Lean_Archive\Termination_Legacy.lean
+Source: MUST_Review/Legacy/Meta_Lean_Archive/Termination_Legacy.lean
 SHA256: 029E39872EA17337CB40293BE3C1ED4B26E7AFFDBE63062D571DDA6E4E1C7A91
 FailureExplanation: Core domination inequality is assumed via h_bound rather than derived.
 FailureModeTags: unsupported_inference
@@ -14,3 +16,7 @@ Excerpt:
 >   -- Convert both sides using mu definitions - now should match exactly
 >   simp only [mu]
 >   exact h_bound
+
+
+
+

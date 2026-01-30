@@ -1,5 +1,7 @@
+Purpose: Evidence extract (misc/documentation) documenting a failure or relevance; Duplicate of FRV2-0364.
+Contents: Metadata header + excerpt from the source file.
 Context: Doc claims green status without embedded evidence.
-Source: C:\Users\Moses\OpComp\MUST_Review\chats\math_docs.md
+Source: MUST_Review/chats/math_docs.md
 SHA256: 699B5EC35C5701875F3AA2B1607A63EAF302CFB5C829983EF52D02DFCDDB48BE
 FailureExplanation: Doc claims green status without embedded evidence.
 FailureModeTags: unsupported_inference
@@ -11,3 +13,7 @@ Excerpt:
 > **Date**: August 10, 2025
 > **Branch**: guide/consolidated-ssot
 > ---
+
+
+
+

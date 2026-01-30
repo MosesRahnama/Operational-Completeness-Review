@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; Prescriptive fix relies on rec_succ_bound ?-domination, which is disallowed and mathematically false in this project.
+Contents: Metadata header + excerpt from the source file.
 Context: Prescriptive fix script for Claude_SN that relies on a rec_succ bound lemma the project marks as impossible.
-Source: C:\Users\Moses\OpComp\MUST_Review\Legacy\MetaMD_Archive\for_claude.md
+Source: Legacy/MetaMD_Archive/for_claude.md
 SHA256: E584CED948532E69E8DCF2CB19936CFE50F1F4CA73B0B4BE28CDF9FE77100B14
 FailureExplanation: The instructions require a forbidden rec_succ_bound ?-domination assumption, violating project constraints.
 FailureModeTags: constraint_violation; unsupported_inference
@@ -14,3 +16,7 @@ Excerpt:
 >       -- Or use the more primitive:
 >       -- have h? := MetaSN.mu_merge_lt_rec (b:=b) (s:=s) (n:=m) MetaSN.rec_succ_bound
 >       ...
+
+
+
+

@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; Failure catalog or commentary documenting incorrect assumptions or blockers.
+Contents: Metadata header + excerpt from the source file.
 Context: Failure catalog or commentary documenting incorrect assumptions or blockers.
-Source: C:\Users\Moses\OpComp\MUST_Review\important_2\archive\commnets_3.md
+Source: MUST_Review/important_2/archive/commnets_3.md
 SHA256: F37E91B24A331298382DE627DE2614AFDD3950B36F037B9FE820084A34D21B44
 FailureExplanation: Failure catalog or commentary documenting incorrect assumptions or blockers.
 FailureModeTags: unsupported_inference
@@ -17,3 +19,7 @@ Excerpt:
 > In the "Genealogy of Failures" section of your paper:
 > "We first attempted simple, additive termination measures, such as a depth counter κ with a constant bump k. However, such measures are provably insufficient. As shown in theorem kappa_plus_k_fails in our formal development, a concrete counterexample involving nested recursive calls demonstrates that this entire class of measures fails to decrease."
 > "A natural next step was to employ a standard lexicographic measure (κ, μ). This approach also fails, as the primary component κ does not strictly decrease across the rec_succ reduction, a necessary condition for the lexicographic order. This failure is formally certified by theorem simple_lex_fails."
+
+
+
+

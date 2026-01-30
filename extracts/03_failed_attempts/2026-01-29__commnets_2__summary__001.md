@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; Failure catalog or commentary documenting incorrect assumptions or blockers.
+Contents: Metadata header + excerpt from the source file.
 Context: Failure catalog or commentary documenting incorrect assumptions or blockers.
-Source: C:\Users\Moses\OpComp\MUST_Review\important_2\archive\commnets_2.md
+Source: MUST_Review/important_2/archive/commnets_2.md
 SHA256: F62CEECC181317FB86A854DD30459EFA55DAC391B6ED5C9B91C7669475E0580E
 FailureExplanation: Failure catalog or commentary documenting incorrect assumptions or blockers.
 FailureModeTags: unsupported_inference
@@ -17,3 +19,7 @@ Excerpt:
 > Hybrid approach successfully handles duplication
 > 2. Certified Normalizer
 > Normalize_Safe fully implemented
+
+
+
+

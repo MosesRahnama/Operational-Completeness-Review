@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; Analysis or notes documenting failures, blockers, or unproven claims.
+Contents: Metadata header + excerpt from the source file.
 Context: File review extract.
-Source: C:\Users\Moses\OpComp\MUST_Review\copilot-instructions.md
+Source: MUST_Review/copilot-instructions.md
 SHA256: B80215F6FB5C2BE39E91776E206F01A751A9CE0C7B4C80FAA523B57450667AD5
 FailureExplanation: Analysis or notes documenting failures, blockers, or unproven claims.
 FailureModeTags: constraint_violation; proof_obligation_stuck; nonconvergence
@@ -15,3 +17,7 @@ Excerpt:
 > - When n = delta m: kappa = base + 2
 > - Otherwise: kappa = base
 > **NEVER** assert a single global equation unless rfl succeeds on ALL branches.
+
+
+
+

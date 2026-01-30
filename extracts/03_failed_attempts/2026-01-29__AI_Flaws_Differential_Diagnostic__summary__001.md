@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; Duplicate of FRV2-0461.
+Contents: Metadata header + excerpt from the source file.
 Context: File review extract.
-Source: C:\Users\Moses\OpComp\MUST_Review\AI_Flaws_Differential_Diagnostic.md
+Source: MUST_Review/AI_Flaws_Differential_Diagnostic.md
 SHA256: 8668955327993A9E1F081DFA1321D99611FFC33EED508677C9EE1D352DEEF65E
 FailureExplanation: Analysis or notes documenting failures, blockers, or unproven claims.
 FailureModeTags: constraint_violation
@@ -15,3 +17,7 @@ Excerpt:
 > **The Jackpot Insight**: Confidence scores can be faked through consistent output patterns, but token count predictions cannot be faked because they require knowing the future output before generating it.
 > ---
 > ## Part I: The Temperature/Top_p rec_succ Proof
+
+
+
+

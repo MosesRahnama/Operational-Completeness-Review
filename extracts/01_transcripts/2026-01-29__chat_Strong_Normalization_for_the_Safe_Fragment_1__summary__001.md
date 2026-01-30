@@ -1,5 +1,7 @@
+Purpose: Evidence extract (transcripts/transcript) documenting a failure or relevance; Chat transcript documenting model behavior.
+Contents: Metadata header + excerpt from the source file.
 Context: File review extract.
-Source: C:\Users\Moses\OpComp\MUST_Review\chat_Strong Normalization for the Safe Fragment (1).md
+Source: MUST_Review/chat_Strong Normalization for the Safe Fragment (1).md
 SHA256: D5834FC8EAB3030FF10A6C7FE2A144E846894451C1687027E6A70831074FA34B
 FailureExplanation: Chat transcript documenting model behavior.
 FailureModeTags: unsupported_inference
@@ -15,3 +17,7 @@ Excerpt:
 > The goal here is to establish an immutable, timestamped public record that no one can erase or steal.
 > 1. **Upload to Zenodo (CERN-backed)**
 > * **Why:** It gives you an instant **DOI** (Digital Object Identifier) and is censorship-resistant. It links your code and PDF indissolubly.
+
+
+
+

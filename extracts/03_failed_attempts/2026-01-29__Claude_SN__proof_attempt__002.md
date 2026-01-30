@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/proof-attempt) documenting a failure or relevance; Duplicate of Legacy\\Meta_Lean_Archive\\Claude_SN.lean.
+Contents: Metadata header + excerpt from the source file.
 Context: Excerpt from Claude_SN showing the rec_succ case with a sorry for the μ domination bound.
-Source: C:\Users\Moses\OpComp\MUST_Review\Legacy\Meta_Lean_Archive\Claude_SN.lean
+Source: Legacy/Meta_Lean_Archive/Claude_SN.lean
 SHA256: 1CBACF8DEEBA9605CD0627070476A27BB892F1625F5D3BC4274CB5506EF82558
 FailureExplanation: The rec_succ proof inserts a `sorry` for the required μ bound, so the lex termination proof is incomplete.
 FailureModeTags: proof_obligation_stuck; unsupported_inference
@@ -77,3 +79,7 @@ Excerpt:
 >         simp [kappa, base]
 >       apply drop_left
 >       simpa [h_merge, h_rec] using Nat.lt_succ_self base
+
+
+
+

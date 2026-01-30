@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; Duplicate of MUST_Review\Legacy\Meta_Lean_Archive\Termination.lean.
+Contents: Metadata header + excerpt from the source file.
 Context: Termination.lean uses a parameterized bound for recΔ successor rather than a proof.
-Source: C:\Users\Moses\OpComp\MUST_Review\Legacy\Meta_Lean_Archive\Termination.lean
+Source: MUST_Review/Legacy/Meta_Lean_Archive/Termination.lean
 SHA256: FBDB31029711B705E3DB3C8FCB4AE0058F92152DF9EE4F48EC076A513516F324
 FailureExplanation: Critical recΔ successor inequality is assumed via h_bound; termination depends on this unproven bound.
 FailureModeTags: unsupported_inference
@@ -257,3 +259,7 @@ Excerpt:
 >   -- Expand mu definitions on both sides; structure then matches h_bound directly
 >   simp only [mu]
 >   exact h_bound
+
+
+
+

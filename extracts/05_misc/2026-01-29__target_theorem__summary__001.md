@@ -1,5 +1,7 @@
+Purpose: Evidence extract (misc/analysis) documenting a failure or relevance; Reference or planning document; not a proof artifact.
+Contents: Metadata header + excerpt from the source file.
 Context: File review extract.
-Source: C:\Users\Moses\OpComp\MUST_Review\target_theorem.md
+Source: MUST_Review/target_theorem.md
 SHA256: AFA8498CD2EDBB990D9FDC2AD18014CEAC6D2AC637F4677A0291A4660710765E
 FailureExplanation: Reference or planning document; not a proof artifact.
 FailureModeTags: 
@@ -15,3 +17,7 @@ Excerpt:
 > let A : Ordinal := omega0 ^ (mu (delta n) + mu s + 6)
 > omega0 ^ (2 : Ordinal) * (mu (rec b s n) + 1) < A
 > ```
+
+
+
+

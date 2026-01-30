@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/proof-attempt) documenting a failure or relevance; Termination_Legacy uses heavy tactic automation and introduces a parameterized bound to bypass the rec_succ proof, leaving the core inequality unproven.
+Contents: Metadata header + excerpt from the source file.
 Context: Excerpt from Termination_Legacy showing disallowed tactic imports and the parameterized recΔ bound used to bypass rec_succ proof.
-Source: C:\Users\Moses\OpComp\MUST_Review\Legacy\MetaMD_Archive\Termination_Legacy.md
+Source: Legacy/MetaMD_Archive/Termination_Legacy.md
 SHA256: 7E6BEA6B0B9B9A6D8D6712AF9D25E0D86FEE7C8A9B11AF39A4F76F0D48A2D6B3
 FailureExplanation: Termination_Legacy uses heavy tactic automation and introduces a parameterized bound to bypass the rec_succ proof, leaving the core inequality unproven.
 FailureModeTags: constraint_violation; unsupported_inference
@@ -199,3 +201,7 @@ Excerpt:
 >   -- Convert both sides using mu definitions - now should match exactly
 >   simp only [mu]
 >   exact h_bound
+
+
+
+

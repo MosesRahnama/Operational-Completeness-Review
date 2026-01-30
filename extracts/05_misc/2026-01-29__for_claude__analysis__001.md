@@ -1,5 +1,7 @@
+Purpose: Evidence extract (misc/analysis) documenting a failure or relevance; Instructional guidance; not direct evidence.
+Contents: Metadata header + excerpt from the source file.
 Context: Instructional script for fixing Claude_SN errors; includes exact patch guidance.
-Source: C:\Users\Moses\OpComp\MUST_Review\MetaMD_Archive\for_claude.md
+Source: MUST_Review/MetaMD_Archive/for_claude.md
 SHA256: E584CED948532E69E8DCF2CB19936CFE50F1F4CA73B0B4BE28CDF9FE77100B14
 FailureExplanation: Instructional guidance; not direct evidence.
 FailureModeTags: 
@@ -198,3 +200,7 @@ Excerpt:
 >   - If provided: MetaSN.mu_merge_lt_rec (b:=b) (s:=s) (n:=m) MetaSN.rec_succ_bound
 >   - Or a wrapper: MetaSN.mu_lt_rec_succ b s m MetaSN.rec_succ_bound
 > - Eq-diff: MetaSN.mu_lt_eq_diff a b
+
+
+
+

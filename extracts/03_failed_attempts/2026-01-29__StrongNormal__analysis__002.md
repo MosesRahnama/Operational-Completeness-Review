@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; Duplicate of MUST_Review\Legacy\Meta_Lean_Archive\StrongNormal.lean.
+Contents: Metadata header + excerpt from the source file.
 Context: StrongNormal.lean reuses kappaD and MetaSN μ lemmas to claim lexicographic decrease.
-Source: C:\Users\Moses\OpComp\MUST_Review\Legacy\Meta_Lean_Archive\StrongNormal.lean
+Source: MUST_Review/Legacy/Meta_Lean_Archive/StrongNormal.lean
 SHA256: CD683DF3F7DB90549E7DF5E680D21EE7D52596FCE75A68D5F964D4DBA3702FAC
 FailureExplanation: Relies on imported μ-drop lemmas and kappaD_drop_recSucc without independent justification.
 FailureModeTags: unsupported_inference
@@ -38,3 +40,7 @@ Excerpt:
 >     drop_right (MetaSN.mu_lt_eq_diff a b) (by simp [kappa])
 >
 > /-- Reverse relation for forward normalization. -/
+
+
+
+

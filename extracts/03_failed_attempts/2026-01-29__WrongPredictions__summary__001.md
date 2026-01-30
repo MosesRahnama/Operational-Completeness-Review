@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; Duplicate of FRV2-0378.
+Contents: Metadata header + excerpt from the source file.
 Context: Failure catalog or commentary documenting incorrect assumptions or blockers.
-Source: C:\Users\Moses\OpComp\MUST_Review\important_2\WrongPredictions.md
+Source: MUST_Review/important_2/WrongPredictions.md
 SHA256: D9F86BA2A2E3C6FE45C850C941386B103117C3AE55D7137C0127A2F50DCF4376
 FailureExplanation: Failure catalog or commentary documenting incorrect assumptions or blockers.
 FailureModeTags: unsupported_inference
@@ -17,3 +19,7 @@ Excerpt:
 > | RP-6 | μ s vs μ(δ n) global comparison | RE-5 | Sim §4 counterexample | Avoid cross-parameter global bounds |
 > ## RP-1: Global domination for rec_succ — not provable universally
 > Evidence (bound left as sorry):
+
+
+
+

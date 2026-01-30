@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; Duplicate of MUST_Review\Legacy\Meta_Lean_Archive\KO7_OperationalIncompleteness_Skeleton.lean.
+Contents: Metadata header + excerpt from the source file.
 Context: Excerpt from KO7_OperationalIncompleteness_Skeleton.lean showing the duplication stress test for rule r4 and the size non-decrease calculation.
-Source: C:\Users\Moses\OpComp\MUST_Review\Legacy\Meta_Lean_Archive\KO7_OperationalIncompleteness_Skeleton.lean
+Source: MUST_Review/Legacy/Meta_Lean_Archive/KO7_OperationalIncompleteness_Skeleton.lean
 SHA256: D279C39C2A9D779DF8A029E46B8D51D28BD915891DC783B3281150973892815E
 FailureExplanation: The additive size measure provably does not strictly decrease under the duplication rule r4 (mul (s x) y → add y (mul x y)), indicating a core termination obstacle.
 FailureModeTags: nondecreasing_measure
@@ -22,3 +24,7 @@ Excerpt:
 > Only after switching to a robust base order (e.g., DM multiset/RPO with explicit precedence)
 > can we prove each RHS piece is strictly < the removed LHS redex.
 > -/
+
+
+
+

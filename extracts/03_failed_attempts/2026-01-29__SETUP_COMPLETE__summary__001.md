@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; Analysis or notes documenting failures, blockers, or unproven claims.
+Contents: Metadata header + excerpt from the source file.
 Context: File review extract.
-Source: C:\Users\Moses\OpComp\MUST_Review\SETUP_COMPLETE.md
+Source: MUST_Review/SETUP_COMPLETE.md
 SHA256: B1EAC32F8CBF8DEFAC0B87A26E079840C246CC0E535CB562CE4E4404024E8B19
 FailureExplanation: Analysis or notes documenting failures, blockers, or unproven claims.
 FailureModeTags: constraint_violation
@@ -15,3 +17,7 @@ Excerpt:
 > 5. **Auto-build configuration** - VS Code tasks and settings configured
 > ### Quick Test:
 > ```bash
+
+
+
+

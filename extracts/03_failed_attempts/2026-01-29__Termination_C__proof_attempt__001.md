@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/proof-attempt) documenting a failure or relevance; Termination_C relies on heavy tactic automation and a dead-end section with commented sorries, so the proof is not valid under project constraints.
+Contents: Metadata header + excerpt from the source file.
 Context: Excerpt from Termination_C showing disallowed tactic imports and the dead-end note before commented-out proofs.
-Source: C:\Users\Moses\OpComp\MUST_Review\Legacy\MetaMD_Archive\Termination_C.md
+Source: Legacy/MetaMD_Archive/Termination_C.md
 SHA256: 9A17F4C7F9B629A0FBB905F8E1A1B2D2C8FECFFCB2CFF2752A42F4C10C8EC1E7
 FailureExplanation: Termination_C relies on heavy tactic automation and a dead-end section with commented sorries, so the proof is not valid under project constraints.
 FailureModeTags: constraint_violation; proof_obligation_stuck; unsupported_inference
@@ -1457,3 +1459,7 @@ Excerpt:
 >   rw [hk]
 >   -- Now apply Prod.Lex.right with definitionally equal first components
 >   exact Prod.Lex.right (kappaTop t) h
+
+
+
+

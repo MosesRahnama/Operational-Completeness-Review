@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; Duplicate of FRV2-0160.
+Contents: Metadata header + excerpt from the source file.
 Context: Technical companion analysis of Claude_SN.lean, detailing why the proof fails at R_rec_succ for nested delta inputs.
-Source: C:\Users\Moses\OpComp\MUST_Review\Legacy\MetaMD_Archive\Claude_SN_Companion.md
+Source: Legacy/MetaMD_Archive/Claude_SN_Companion.md
 SHA256: BDE1960524EF05D8055C099D2B308158EE75AA1AA22FEB230E12BD5A0D106672
 FailureExplanation: The analysis shows κ ties in the delta-of-delta case, forcing a μ inequality that is mathematically false, blocking termination proof completion.
 FailureModeTags: nondecreasing_measure; proof_obligation_stuck
@@ -207,3 +209,7 @@ The Claude_SN approach is 87.5% successful, with a clean architecture and correc
 3. Accept parameterization/incompleteness
 
 The current file serves as excellent documentation of why the naive (κ, μ) lexicographic approach fails and what would be needed for a complete proof.
+
+
+
+

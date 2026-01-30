@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/proof-attempt) documenting a failure or relevance; The proof sketch uses linarith and informal ordinal inequalities to assert ?? decreases, which is not justified in the project constraints.
+Contents: Metadata header + excerpt from the source file.
 Context: Excerpt from SN_Opus showing μ₂ definition and the rec_succ decrease proof relying on linarith and max_def case splits.
-Source: C:\Users\Moses\OpComp\MUST_Review\Legacy\MetaMD_Archive\SN_Opus.md
+Source: Legacy/MetaMD_Archive/SN_Opus.md
 SHA256: D1A02D18B85E10D0C6C1BD9C7200D167EE71C9C7A65F3FCD87CFE3E7B20F9B4F
 FailureExplanation: The proof sketch uses linarith and informal ordinal inequalities to assert μ₂ decreases, which is not justified in the project constraints.
 FailureModeTags: constraint_violation; unsupported_inference
@@ -106,3 +108,7 @@ Excerpt:
 >     · simp [h]
 >       linarith
 >   linarith [h2, h3]
+
+
+
+

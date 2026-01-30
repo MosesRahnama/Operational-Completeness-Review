@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; Analysis or notes documenting failures, blockers, or unproven claims.
+Contents: Metadata header + excerpt from the source file.
 Context: File review extract.
-Source: C:\Users\Moses\OpComp\MUST_Review\copilot.md
+Source: MUST_Review/copilot.md
 SHA256: 0A3C0CDE0DBF4CBFBF09C912DE60CC2D2506FD6742E7C282648707B38E66AA5A
 FailureExplanation: Analysis or notes documenting failures, blockers, or unproven claims.
 FailureModeTags: constraint_violation; nonconvergence
@@ -15,3 +17,7 @@ Excerpt:
 > ---
 > ## 1. Project
 > **Repo:** OperatorKernelO6 / OperatorMath
+
+
+
+

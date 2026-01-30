@@ -1,5 +1,8 @@
 # Failure Mode Legend
 
+Purpose: Define and standardize failure‑mode tags for evidence classification.
+Contents: Tag list with definitions used in logs and extracts.
+
 Primary modes (scientific categories)
 - unsupported_inference: proof step not derivable in the system (fabricated lemma, unjustified assumption).
 - inconsistency: mutually incompatible claims within the same reasoning trace.

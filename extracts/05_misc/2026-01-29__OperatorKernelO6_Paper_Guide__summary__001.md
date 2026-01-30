@@ -1,5 +1,7 @@
+Purpose: Evidence extract (misc/guide) documenting a failure or relevance; Guidance or index document; not a proof artifact.
+Contents: Metadata header + excerpt from the source file.
 Context: File review extract.
-Source: C:\Users\Moses\OpComp\MUST_Review\OperatorKernelO6_Paper_Guide.md
+Source: MUST_Review/important_2/OperatorKernelO6_Paper_Guide.md
 SHA256: FF6E02ABE8C9A8E47CACF99B03D03CF1ECBB3E835055174F047D185A551EEEFA
 FailureExplanation: Guidance or index document; not a proof artifact.
 FailureModeTags: 
@@ -9,3 +11,7 @@ Excerpt:
 > > This stub remains to preserve links.
 > Date: 2025-08-16
 > Branch: guide/consolidated-ssot
+
+
+
+

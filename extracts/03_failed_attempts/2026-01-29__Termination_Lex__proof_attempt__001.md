@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/proof-attempt) documenting a failure or relevance; The kappaTop proof applies a left-branch decrease in cases where kappaTop increases (e.g., merge void with rec?), so the lex decrease is invalid.
+Contents: Metadata header + excerpt from the source file.
 Context: Excerpt from Termination_Lex showing the kappaTop lex proof and the recΔ case in merge-void using the wrong lex direction.
-Source: C:\Users\Moses\OpComp\MUST_Review\Legacy\MetaMD_Archive\Termination_Lex.md
+Source: Legacy/MetaMD_Archive/Termination_Lex.md
 SHA256: E370E4767AFAF6C5D15A2E3D8C8F225B08C9D8C3D8E4C9A5C02C0E96C14972A8
 FailureExplanation: The kappaTop proof applies a left-branch decrease in cases where kappaTop increases (e.g., merge void with recΔ), so the lex decrease is invalid.
 FailureModeTags: nondecreasing_measure; unsupported_inference
@@ -83,3 +85,7 @@ Excerpt:
 >           unfold LexNatOrdTop μκTop
 >           apply Prod.Lex.left
 >           simp [kappaTop, hb]
+
+
+
+

@@ -1,5 +1,7 @@
+Purpose: Evidence extract (misc/pdf) documenting a failure or relevance; Duplicate of FRV2-0685.
+Contents: Metadata header + excerpt from the source file.
 Context: File review extract.
-Source: C:\Users\Moses\OpComp\MUST_Review\What you should do now.pdf
+Source: MUST_Review/What you should do now.pdf
 SHA256: B154DF245A6031CEDFA58217E14005D5167FFA5276CB6DF7D2E2350A9C238CFF
 FailureExplanation: PDF document; requires review for technical claims.
 FailureModeTags: 
@@ -15,3 +17,7 @@ Excerpt:
 > endobj
 > 3 0 obj
 > <</ca 1
+
+
+
+

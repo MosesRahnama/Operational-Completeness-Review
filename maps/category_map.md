@@ -1,5 +1,8 @@
 # Category Map
 
+Purpose: Define the category system used across all extracts and logs.
+Contents: Category definitions, evidence type options, and relevance labels.
+
 Categories (from user guidance)
 - 1: Normal chat transcripts during the project where AI gets it wrong (non-test).
 - 2: Explicit test chats / protocol runs (operator-only, model ID test, parameter test, Strict Execution Contract).

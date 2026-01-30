@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; Duplicate of FRV2-0084.
+Contents: Metadata header + excerpt from the source file.
 Context: Excerpt from SN_Notes showing AI attempts to fix the rec_succ termination proof, including the kappa case-split discovery and later reversal about blocked mu arguments.
-Source: C:\Users\Moses\OpComp\MUST_Review\Legacy\MetaMD_Archive\SN_Notes.md
+Source: Legacy/MetaMD_Archive/SN_Notes.md
 SHA256: C398C9A6CC524D9A22B9AC5461C75D583DAA9F83E768849060015AABF78B1E86
 FailureExplanation: The notes show repeated patch proposals that first claim a clean fix, then later admit the delta-case and mu-drop require a forbidden bound, illustrating self-contradiction and repair loops.
 FailureModeTags: inconsistency; case_split_omission; nonconvergence
@@ -38,3 +40,7 @@ Excerpt:
 > 
 > ? Stay with the lexicographic ?/? measure,
 > ? but make ? pick up an extra bump (+2) ...
+
+
+
+

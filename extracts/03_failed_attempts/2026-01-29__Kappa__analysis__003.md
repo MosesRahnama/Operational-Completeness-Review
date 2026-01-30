@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; Kappa definition increments for every rec?, violating the intended ? drop-only-on-rec_succ invariant.
+Contents: Metadata header + excerpt from the source file.
 Context: Kappa.lean excerpt; kappa counts all recΔ (not only recΔ delta-case).
-Source: C:\Users\Moses\OpComp\MUST_Review\MetaMD_Archive\Kappa.md
+Source: MUST_Review/MetaMD_Archive/Kappa.md
 SHA256: DDA891BE8336D7956783DA77E91014D9F49D3F153BBCC930367E7CAC4D53E8E6
 FailureExplanation: Kappa definition increments for every recΔ, violating the intended κ drop-only-on-rec_succ invariant.
 FailureModeTags: nondecreasing_measure; constraint_violation
@@ -50,3 +52,7 @@ Excerpt:
 > @[simp] theorem kappa_eq_eq_diff (a b : Trace) :
 >     kappa (integrate (merge a b)) = kappa (eqW a b) := by
 >   simp [kappa]
+
+
+
+

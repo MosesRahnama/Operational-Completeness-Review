@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/diagnostic) documenting a failure or relevance; Lean reports undischarged LexOrder goal in SN_Final.lean.
+Contents: Metadata header + excerpt from the source file.
 Context: Diagnostic log excerpt from SN_Final_Diags showing the stuck rec_succ goal and pattern error.
-Source: C:\Users\Moses\OpComp\MUST_Review\Legacy\MetaMD_Archive\SN_Final_Diags.md
+Source: Legacy/MetaMD_Archive/SN_Final_Diags.md
 SHA256: 478457F74850744814483C0CE4C2CBBD4634EEF9C3FCA7F2E96F045FF325362D
 FailureExplanation: Lean diagnostics show the rec_succ proof state stuck and an invalid pattern alternative error in SN_Final.lean.
 FailureModeTags: proof_obligation_stuck; type_mismatch
@@ -168,3 +170,7 @@ Excerpt:
 >     [] Nat.max ↦ 36 
 >     [] OfNat.ofNat ↦ 22 
 > use `set_option diagnostics.threshold <num>` to control threshold for reporting counters
+
+
+
+

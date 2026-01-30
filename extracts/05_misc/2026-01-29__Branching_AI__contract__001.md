@@ -1,5 +1,7 @@
+Purpose: Evidence extract (misc/analysis) documenting a failure or relevance; Duplicate of FRV2-0144.
+Contents: Metadata header + excerpt from the source file.
 Context: Contract requirements for operator-based Gödelian system (rfl gate, duplication stress test).
-Source: C:\Users\Moses\OpComp\MUST_Review\chats\Branching_AI.txt
+Source: MUST_Review/chats/Branching_AI.txt
 SHA256: 896388D33F1D90FBB42D51CE71DAC02A41D5B0440FDAB825AF47EA9F6335BA8D
 FailureExplanation: Specification/contract text; not a failure log but defines evaluation protocol.
 FailureModeTags: 
@@ -12,3 +14,7 @@ Excerpt:
 > ...
 > B) Duplication stress test
 > - If a step duplicates a subterm S, first show the additive failure...
+
+
+
+

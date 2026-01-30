@@ -1,5 +1,7 @@
+Purpose: Evidence extract (misc/guidance) documenting a failure or relevance; Duplicate of FRV2-0198.
+Contents: Metadata header + excerpt from the source file.
 Context: Prescriptive fixes not validated here.
-Source: C:\Users\Moses\OpComp\MUST_Review\chats\for_claude.md
+Source: MUST_Review/chats/for_claude.md
 SHA256: E584CED948532E69E8DCF2CB19936CFE50F1F4CA73B0B4BE28CDF9FE77100B14
 FailureExplanation: Prescriptive fixes not validated here.
 FailureModeTags: unsupported_inference
@@ -11,3 +13,7 @@ Excerpt:
 > - Cause: You didn’t cover all Step constructors.
 > - Fix: Add four missing branches with exactly the code below (R_rec_zero, R_rec_succ, R_eq_refl, R_eq_diff).
 > - Error 2: “unknown identifier 't'” inside R_rec_zero
+
+
+
+

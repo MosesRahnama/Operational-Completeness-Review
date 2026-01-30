@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; Analysis or notes documenting failures, blockers, or unproven claims.
+Contents: Metadata header + excerpt from the source file.
 Context: File review extract.
-Source: C:\Users\Moses\OpComp\MUST_Review\Expanded_Ordinal_Toolkit.md
+Source: MUST_Review/Expanded_Ordinal_Toolkit.md
 SHA256: C7F256CD4459BB896F8161FE6EB4903B2D62FFD4AE7A8CCCD134D31BD9F47289
 FailureExplanation: Analysis or notes documenting failures, blockers, or unproven claims.
 FailureModeTags: constraint_violation
@@ -15,3 +17,7 @@ Excerpt:
 > | WF/Acc                        | `Init.WF`                                        | `WellFounded`, `Acc`, `InvImage.wf`, `Subrelation.wf`                                                                                                            |
 > | Prod lex orders               | `Mathlib.Data.Prod.Lex`                          | `Prod.Lex` for lexicographic measures                                                                                                                            |
 > | Ordinal basics                | `Mathlib.SetTheory.Ordinal.Basic`                | `omega0_pos`, `one_lt_omega0`, `lt_omega0`, `nat_lt_omega0`                                                                                                      |
+
+
+
+

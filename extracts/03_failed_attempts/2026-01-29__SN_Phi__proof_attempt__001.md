@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/proof-attempt) documenting a failure or relevance; The file uses linarith/norm_num and contains an admit in the rec_succ proof, so the ?-based SN proof is incomplete.
+Contents: Metadata header + excerpt from the source file.
 Context: Excerpt from SN_Phi showing the Φ measure and the rec_succ proof containing an admit.
-Source: C:\Users\Moses\OpComp\MUST_Review\Legacy\MetaMD_Archive\SN_Phi.md
+Source: Legacy/MetaMD_Archive/SN_Phi.md
 SHA256: 4B7F7E6E2A5B0D1D2546E5CE5D8A0B443D5B316C76E9E9FE2F6C6B2C5BCA1776
 FailureExplanation: The file uses linarith/norm_num and contains an admit in the rec_succ proof, so the Φ-based SN proof is incomplete.
 FailureModeTags: constraint_violation; proof_obligation_stuck; unsupported_inference
@@ -283,3 +285,7 @@ Excerpt:
 >         + ((omega0 ^ (2 : Ordinal)) * (phi (recΔ b s n) + 1) + 1) := by simp [phi, add_assoc]
 >     simpa [eq_mu] using sum_lt
 >   exact lt_trans this rhs_gt_A
+
+
+
+

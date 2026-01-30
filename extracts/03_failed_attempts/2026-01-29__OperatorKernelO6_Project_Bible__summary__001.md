@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; Analysis or notes documenting failures, blockers, or unproven claims.
+Contents: Metadata header + excerpt from the source file.
 Context: File review extract.
-Source: C:\Users\Moses\OpComp\MUST_Review\OperatorKernelO6_Project_Bible.md
+Source: MUST_Review/OperatorKernelO6_Project_Bible.md
 SHA256: 83D86BB88D36BA67101E6ED2967BF47DAEAB2159E6F609B422FA5B71ADB97B47
 FailureExplanation: Analysis or notes documenting failures, blockers, or unproven claims.
 FailureModeTags: constraint_violation
@@ -15,3 +17,7 @@ Excerpt:
 > -   **Emergence:** Core mathematical and logical concepts are not primitives but emerge from the rewrite geometry:
 > -   **Numerals:** Emerge as chains of `delta` applications (`-chains`).
 > -   **Negation:** Emerges from the cancellation dynamics of `integrate` and `merge`.
+
+
+
+

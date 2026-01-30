@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/proof-attempt) documenting a failure or relevance; Duplicate of Legacy\\MetaMD_Archive\\Termination.md.
+Contents: Metadata header + excerpt from the source file.
 Context: Excerpt from Termination showing the μκ_decreases lemma with an explicit admit in the rec_zero case.
-Source: C:\Users\Moses\OpComp\MUST_Review\Legacy\MetaMD_Archive\Termination.md
+Source: Legacy/MetaMD_Archive/Termination.md
 SHA256: E17BABC9A0B8F87C25D706492541DFFDE6ABEC91E5BDBE8F921C258FFE62D246
 FailureExplanation: The termination proof includes an `admit` in μκ_decreases (rec_zero) and uses tactic-heavy imports, leaving SN unproven under constraints.
 FailureModeTags: proof_obligation_stuck; constraint_violation
@@ -28,3 +30,7 @@ Excerpt:
 > 
 > /-- Strong normalization of the kernel: there is no infinite `Step` chain.  We orient the relation
 >     in the deleting direction and use the `(κ, μ)` lexicographic measure. -/
+
+
+
+

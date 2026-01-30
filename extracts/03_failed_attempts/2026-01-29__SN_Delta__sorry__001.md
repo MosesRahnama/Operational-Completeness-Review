@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; Duplicate of MUST_Review\Legacy\Meta_Lean_Archive\SN_Delta.lean.
+Contents: Metadata header + excerpt from the source file.
 Context: SN_Delta.lean excerpt showing an unfinished proof (sorry) in the R_rec_zero branch.
-Source: C:\Users\Moses\OpComp\MUST_Review\Legacy\Meta_Lean_Archive\SN_Delta.lean
+Source: MUST_Review/Legacy/Meta_Lean_Archive/SN_Delta.lean
 SHA256: 276BCCB7C0BEE3CD781498B2CFBD01856AC9C2E87FC3C2EB55DDBF53BE2BF7CB
 FailureExplanation: The rec_zero case contains a `sorry`, leaving the proof obligation unsolved.
 FailureModeTags: proof_obligation_stuck
@@ -25,3 +27,7 @@ Excerpt:
 >         have : d (recΔ b s void) < d (recΔ b s (delta void)) := by
 >           -- one extra delta in the hypothetical source; show strict drop 1
 >           simp [d] at this; sorry
+
+
+
+

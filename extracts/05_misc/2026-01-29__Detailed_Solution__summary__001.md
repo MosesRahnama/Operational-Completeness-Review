@@ -1,5 +1,7 @@
+Purpose: Evidence extract (misc/analysis) documenting a failure or relevance; Reference or planning document; not a proof artifact.
+Contents: Metadata header + excerpt from the source file.
 Context: File review extract.
-Source: C:\Users\Moses\OpComp\MUST_Review\Detailed_Solution.md
+Source: MUST_Review/Detailed_Solution.md
 SHA256: 99EC1D62C9E6019D231B9A94727F9E634EF3A257F0F764DC9E6B72F38B3BE6CC
 FailureExplanation: Reference or planning document; not a proof artifact.
 FailureModeTags: 
@@ -15,3 +17,7 @@ Excerpt:
 > All proofs are left as TODO: comments so the file does not introduce
 > sorry, admit, or opaque; Lean will ignore commented code until you start
 > filling it in.
+
+
+
+

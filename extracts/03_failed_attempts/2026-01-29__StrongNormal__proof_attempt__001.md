@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/proof-attempt) documenting a failure or relevance; The proof depends on ? lemmas (e.g., mu_lt_eq_diff, mu_lt_rec_zero) that are missing or disputed elsewhere, so SN is not established.
+Contents: Metadata header + excerpt from the source file.
 Context: Excerpt from StrongNormal showing the kappaD lex measure and reliance on μ lemmas for step decreases.
-Source: C:\Users\Moses\OpComp\MUST_Review\Legacy\MetaMD_Archive\StrongNormal.md
+Source: Legacy/MetaMD_Archive/StrongNormal.md
 SHA256: 8E13E399EF025C737B4AC93A3035FE57F5B7CE1E7051A0F2C1221B6A5F0E6B85
 FailureExplanation: The proof depends on μ lemmas (e.g., mu_lt_eq_diff, mu_lt_rec_zero) that are missing or disputed elsewhere, so SN is not established.
 FailureModeTags: proof_obligation_stuck
@@ -125,3 +127,7 @@ Excerpt:
 >     have hk : kappaD (.eqW a b) = kappaD (.integrate (.merge a b)) := by
 >       simp [kappaD, Nat.max_assoc, Nat.max_comm, Nat.max_left_comm]
 >     exact drop_right hμ hk
+
+
+
+

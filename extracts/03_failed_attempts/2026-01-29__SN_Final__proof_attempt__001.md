@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/proof-attempt) documenting a failure or relevance; Duplicate of Legacy\\MetaMD_Archive\\SN_Final.md.
+Contents: Metadata header + excerpt from the source file.
 Context: Excerpt from SN_Final showing the deltaFlag/kappa lex measure setup and measure_decreases skeleton.
-Source: C:\Users\Moses\OpComp\MUST_Review\Legacy\MetaMD_Archive\SN_Final.md
+Source: Legacy/MetaMD_Archive/SN_Final.md
 SHA256: 55B2AD5600522515D9AA51729D5628CE39504DF5DD36B235B773F3F045BFB180
 FailureExplanation: The proof claims deltaFlag/kappa lex decreases, but diagnostics show rec_succ stuck and pattern errors; the measure strategy is unvalidated.
 FailureModeTags: unsupported_inference; nondecreasing_measure
@@ -220,3 +222,7 @@ Excerpt:
 >     exact lift_inner hinner hδ.symm
 > 
 > /-- The reverse step relation (for forward normalization). -/
+
+
+
+

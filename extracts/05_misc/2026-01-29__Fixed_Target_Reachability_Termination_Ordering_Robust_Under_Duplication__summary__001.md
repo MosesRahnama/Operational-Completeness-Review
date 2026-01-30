@@ -1,5 +1,7 @@
+Purpose: Evidence extract (misc/reference) documenting a failure or relevance; Background research memo; not a proof artifact.
+Contents: Metadata header + excerpt from the source file.
 Context: Background research memo; not a proof artifact.
-Source: C:\Users\Moses\OpComp\MUST_Review\important_2\Research\Fixed_Target_Reachability_Termination_Ordering_Robust_Under_Duplication.md
+Source: MUST_Review/important_2/Research/Fixed_Target_Reachability_Termination_Ordering_Robust_Under_Duplication.md
 SHA256: FF9AD3EADA6EFE4277CD671E3CBACC82F8391935997DFDD4D97122DE18C20013
 FailureExplanation: Background research memo; not a proof artifact.
 FailureModeTags: 
@@ -15,3 +17,7 @@ Excerpt:
 > Key Results – Ground vs Non-ground: If the target term $t$ is ground (e.g. a constant like $\top$), reachability often simplifies. A classic result by Oyamaguchi (1986) is that reachability in right-ground TRSs is decidable[10], and similarly for other classes where the rewrite relation can be analyzed by automata. However, if $t$ contains variables (asking if $s$ can reach some instance of a pattern), the problem is harder – essentially a combination of reachability and unification. We focus on the simpler fixed ground target case, which is the “small-term reachability” problem (reach a term of size bounded by a given $k$) with $k=|t|$. In convergent (terminating + confluent) systems, checking $s \to^ t$ reduces to checking if $\mathrm{nf}(s)=\mathrm{nf}(t)$, since normal forms are unique[13]. Thus for confluent TRSs reachability of a ground $t$ is decidable in linear or polynomial time by normalization. Without confluence, one may have to explore many derivations; decidability can still hold (as the system is terminating, one could, in principle, explore all reductions from $s$), but efficiency and even feasibility are concerns. Caron & Coquidé (1994) investigated modularity of reachability: they proved that if two disjoint TRSs each have decidable reachability, their union also has decidable reachability provided certain conditions hold (e.g. no collapsing rules $f(x)\to x$ in a left-linear system)[14]. They also showed modularity can fail when these conditions are dropped, implying new sources of undecidability in combined systems. In summary, ground reachability in terminating TRSs is often decidable (with notable exceptions), whereas non-ground* reachability quickly rises to the complexity of first-order logic or worse, often requiring additional restrictions for decidability.
 > Complexity Landscape: A recent comprehensive study by Baader et al. (FSCD 2024) provides tight complexity bounds for fixed-target reachability (called the “small term reachability problem”) under various subclasses[2][15]. Their results can be paraphrased as follows:
 > - Length-reducing TRSs: If every rewrite strictly decreases term size, reachabili
+
+
+
+

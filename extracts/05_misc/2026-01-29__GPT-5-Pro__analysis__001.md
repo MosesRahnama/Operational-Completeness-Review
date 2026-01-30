@@ -1,5 +1,7 @@
+Purpose: Evidence extract (misc/analysis) documenting a failure or relevance; Guidance memo repeats planning steps and missing mu_lt_eq_diff without providing a completed proof artifact.
+Contents: Metadata header + excerpt from the source file.
 Context: GPT-5-Pro guidance memo for SN proof cleanup and eqW_diff μ-lemma patching.
-Source: C:\Users\Moses\OpComp\MUST_Review\Legacy\MetaMD_Archive\GPT-5-Pro.md
+Source: Legacy/MetaMD_Archive/GPT-5-Pro.md
 SHA256: 2CC1DCF2833D2178BC911132E0BF5B45241295BE2C3CC52BB9F67BDF2C68605D
 FailureExplanation: This is a planning memo that reiterates missing μ lemmas and warns against invalid ordinal lemmas; it documents nonconvergent planning rather than a verified proof. II call them and we can't
 
@@ -10,3 +12,7 @@ Excerpt:
 > The lexicographic measure (κ, μ) with κ strictly dropping only on recΔ-succ and μ dropping on the other 7 rules.
 >
 > The only missing piece is mu_lt_eq_diff: μ(integrate (merge a b)) < μ(eqW a b).
+
+
+
+

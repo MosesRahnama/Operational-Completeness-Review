@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/code) documenting a failure or relevance; Duplicate of Legacy\\Meta_Lean_Archive\\Kappa.lean.
+Contents: Metadata header + excerpt from the source file.
 Context: Excerpt from Kappa.lean showing κ definition and rec_succ equality lemma.
-Source: C:\Users\Moses\OpComp\MUST_Review\Legacy\Meta_Lean_Archive\Kappa.lean
+Source: Legacy/Meta_Lean_Archive/Kappa.lean
 SHA256: CBB62790EF6E765C363FE8F10E2A5FBDAA0683297B9219AA1940AF8C32532117
 FailureExplanation: This κ counts every recΔ (not just rec_succ), so it fails the intended invariant and yields equality on rec_succ instead of a strict drop.
 FailureModeTags: nondecreasing_measure
@@ -46,3 +48,7 @@ Excerpt:
 > 
 > @[simp] theorem kappa_le_eq_refl (a : Trace) : kappa .void ≤ kappa (eqW a a) := by
 >   simp [kappa, Nat.zero_le]
+
+
+
+

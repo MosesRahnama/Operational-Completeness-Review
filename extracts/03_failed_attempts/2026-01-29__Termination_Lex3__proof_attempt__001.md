@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/proof-attempt) documenting a failure or relevance; Duplicate of Legacy\\MetaMD_Archive\\Termination_Lex3.lean.
+Contents: Metadata header + excerpt from the source file.
 Context: Excerpt from Termination_Lex3 showing the μ3 definition and partial rule-drop lemmas.
-Source: C:\Users\Moses\OpComp\MUST_Review\Legacy\MetaMD_Archive\Termination_Lex3.lean
+Source: Legacy/MetaMD_Archive/Termination_Lex3.lean
 SHA256: 48CC2C7FA7C666D9EFDA08D492EA88F49128BD160F2C8D258BA5384BB0A79408
 FailureExplanation: The file only sketches a triple-lex measure with a few rule drops; it does not cover all rules or conclude SN.
 FailureModeTags: nonconvergence
@@ -55,3 +57,7 @@ Excerpt:
 >   apply Prod.Lex.right
 >   apply Prod.Lex.right
 >   simpa using MetaSN.mu_lt_merge_void_right t
+
+
+
+

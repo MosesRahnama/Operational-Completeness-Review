@@ -1,5 +1,7 @@
+Purpose: Evidence extract (misc/analysis) documenting a failure or relevance; Reference or planning document; not a proof artifact.
+Contents: Metadata header + excerpt from the source file.
 Context: File review extract.
-Source: C:\Users\Moses\OpComp\MUST_Review\Termination_Consolidation.md
+Source: MUST_Review/Termination_Consolidation.md
 SHA256: 8E8751F4882ADCF978CDF86ACFDBA7265E831CD00EAE24F191198D5761348579
 FailureExplanation: Reference or planning document; not a proof artifact.
 FailureModeTags: 
@@ -15,3 +17,7 @@ Excerpt:
 > - kappaM is a multiset of recursion weights (DershowitzManna order).
 > - mu is the ordinal measure used throughout MetaSN.
 > - Order: Lex3 = lexicographic on (Nat, Multiset-DM, Ordinal).
+
+
+
+

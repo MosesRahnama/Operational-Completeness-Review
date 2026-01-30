@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/diagnostic) documenting a failure or relevance; Duplicate of FRV2-0191.
+Contents: Metadata header + excerpt from the source file.
 Context: Diagnostic report lists unresolved mu identifier and invalid ordinal rewrites.
-Source: C:\Users\Moses\OpComp\MUST_Review\chats\MuCore_Diag_Reports.md
+Source: MUST_Review/chats/MuCore_Diag_Reports.md
 SHA256: 23C93BAEC754BD36857AE0E5FB64D8163ACD13BF963E83448F00E90AEF85AEC8
 FailureExplanation: Diagnostic report lists unresolved mu identifier and invalid ordinal rewrites.
 FailureModeTags: undefined_symbol; invalid_rewrite; proof_obligation_stuck
@@ -11,3 +13,7 @@ Excerpt:
 > Ran tool
 > Search files...
 > Search files...
+
+
+
+

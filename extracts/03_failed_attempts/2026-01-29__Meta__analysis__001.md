@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/code) documenting a failure or relevance; Meta.lean introduces Bool-valued helpers and imports linarith, violating the boolean-free/axiom-free constraints.
+Contents: Metadata header + excerpt from the source file.
 Context: Excerpt from Meta.md showing Bool-based hasStep and linarith import that violate boolean-free constraints.
-Source: C:\Users\Moses\OpComp\MUST_Review\Legacy\MetaMD_Archive\Meta.md
+Source: Legacy/MetaMD_Archive/Meta.md
 SHA256: 6D44D3C69D8EDA1B8F11FA7EE8335693E7AFD485D7242ED66AEB4A421B1CBC01
 FailureExplanation: Meta.lean introduces Bool-valued helpers and imports linarith, violating the boolean-free/axiom-free constraints.
 FailureModeTags: constraint_violation
@@ -77,3 +79,7 @@ Excerpt:
 > | recΔ _ _ (delta _) => true
 > | eqW _ _ => true
 > | _ => false
+
+
+
+

@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; Analysis or notes documenting failures, blockers, or unproven claims.
+Contents: Metadata header + excerpt from the source file.
 Context: File review extract.
-Source: C:\Users\Moses\OpComp\MUST_Review\Termination_Plan.md
+Source: MUST_Review/Termination_Plan.md
 SHA256: B8BFB62F6D17B9B2E2CE0D1894D01A7C6BF4237994FB85EC746AD2A30813C5E2
 FailureExplanation: Analysis or notes documenting failures, blockers, or unproven claims.
 FailureModeTags: constraint_violation; proof_obligation_stuck; nonconvergence
@@ -15,3 +17,7 @@ Excerpt:
 > around line `Y` (only rename variables).
 >  `tools/ordinal-toolkit.md n`  = lemma is guaranteed to exist there.
 >  `ring`/`linarith` = allowed tactics.
+
+
+
+

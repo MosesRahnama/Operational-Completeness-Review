@@ -1,5 +1,7 @@
+Purpose: Evidence extract (misc/analysis) documenting a failure or relevance; Documentation claims some files are green; not direct evidence.
+Contents: Metadata header + excerpt from the source file.
 Context: Meta documentation of OperatorKernelO6/Meta files and status claims.
-Source: C:\Users\Moses\OpComp\MUST_Review\MetaMD_Archive\math_docs.md
+Source: MUST_Review/MetaMD_Archive/math_docs.md
 SHA256: 699B5EC35C5701875F3AA2B1607A63EAF302CFB5C829983EF52D02DFCDDB48BE
 FailureExplanation: Documentation claims some files are green; not direct evidence.
 FailureModeTags: 
@@ -94,3 +96,7 @@ Excerpt:
 > **Import status**: MuCore.lean has minimal dependencies and compiles cleanly, making it a stable foundation for any termination proof strategy.
 >
 > ---
+
+
+
+

@@ -1,5 +1,7 @@
+Purpose: Evidence summary (misc/reference). Summary of AI-generated mathematical proofs paper (context/reference).
+Contents: Metadata header + summary excerpt.
 Context: File review extract.
-Source: C:\Users\Moses\OpComp\MUST_Review\AI-Generated Mathematical Proofs_ Techn...pdf
+Source: OpComp\MUST_Review\AI-Generated Mathematical Proofs_ Techn...pdf
 SHA256: 1F22909C8D24FFBE65A5FA7771DDAE41CE76DC05E5200C0E1FA1FB53974105B7
 FailureExplanation: PDF document; requires review for technical claims.
 FailureModeTags: 
@@ -15,3 +17,6 @@ Excerpt:
 > htM(Q$SjRfXLdP	ebfFcgRfvRNR_Oo9~sVIj,)Y~4Xvct>A.e0B])+t#sx]eQ
 > LeGs~x79}&J3rj~>hW3]
 > 8DtK?
+
+
+

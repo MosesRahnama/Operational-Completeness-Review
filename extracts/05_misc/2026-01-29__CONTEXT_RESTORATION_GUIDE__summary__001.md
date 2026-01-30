@@ -1,5 +1,7 @@
+Purpose: Evidence extract (misc/guide) documenting a failure or relevance; Guidance or index document; not a proof artifact.
+Contents: Metadata header + excerpt from the source file.
 Context: File review extract.
-Source: C:\Users\Moses\OpComp\MUST_Review\CONTEXT_RESTORATION_GUIDE.md
+Source: MUST_Review/CONTEXT_RESTORATION_GUIDE.md
 SHA256: BF125D0AC3A56C40E1D21AA480D9FD0DEE091072C8FDE130F023D001A4145C48
 FailureExplanation: Guidance or index document; not a proof artifact.
 FailureModeTags: 
@@ -15,3 +17,7 @@ Excerpt:
 > 4. `OperatorKernelO6/Meta/Termination_Lex.lean` - Implementation target
 > 5. `OperatorKernelO6/Meta/Termination_Plan.md` - Step-by-step cookbook
 > 6. `OperatorKernelO6/Meta/Detailed_Solution.md` - O3 root cause analysis
+
+
+
+

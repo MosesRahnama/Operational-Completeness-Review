@@ -1,5 +1,7 @@
+Purpose: Evidence extract (misc/documentation) documenting a failure or relevance; Duplicate of MUST_Review\Legacy\Meta_Lean_Archive\Meta.lean.
+Contents: Metadata header + excerpt from the source file.
 Context: Meta.lean definitions of auxiliary size/count measures and helper functions (no proofs).
-Source: C:\Users\Moses\OpComp\MUST_Review\Legacy\Meta_Lean_Archive\Meta.lean
+Source: MUST_Review/Legacy/Meta_Lean_Archive/Meta.lean
 SHA256: 71CC31E078775007BAC04FDFBD8F4D59D8AEAB3DAC98A0E56FB99EBE9F01E147
 FailureExplanation: File only defines candidate measures and helpers without any termination proof or justification.
 FailureModeTags: 
@@ -100,3 +102,7 @@ Excerpt:
 > def succ (t : Trace) : Trace := delta t
 >
 > end OperatorKernelO6.Meta
+
+
+
+

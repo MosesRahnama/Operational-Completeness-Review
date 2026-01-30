@@ -1,5 +1,7 @@
+Purpose: Evidence extract (misc/guide) documenting a failure or relevance; Duplicate of FRV2-0629.
+Contents: Metadata header + excerpt from the source file.
 Context: File review extract.
-Source: C:\Users\Moses\OpComp\MUST_Review\OTC Hand‑Off Blueprint.pdf
+Source: MUST_Review/OTC Hand‑Off Blueprint.pdf
 SHA256: E62C408F1D36AAF23D31E0BA54541C5F775525D15556FB58958AEE4361CA01EC
 FailureExplanation: Guidance or index document; not a proof artifact.
 FailureModeTags: 
@@ -15,3 +17,7 @@ Excerpt:
 > endobj
 > 3 0 obj
 > <</ca 1
+
+
+
+

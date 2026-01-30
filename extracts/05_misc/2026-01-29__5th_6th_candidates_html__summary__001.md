@@ -1,5 +1,7 @@
+Purpose: Evidence extract (misc/pdf) documenting a failure or relevance; PDF document; requires review for technical claims.
+Contents: Metadata header + excerpt from the source file.
 Context: File review extract.
-Source: C:\Users\Moses\OpComp\MUST_Review\5th-6th candidates.html.pdf
+Source: MUST_Review/5th-6th candidates.html.docx
 SHA256: 225E8C4664FF6AE9E4B4218308899946B43577DD23ED0C2C65FF1F9B47F98A3B
 FailureExplanation: PDF document; requires review for technical claims.
 FailureModeTags: 
@@ -15,3 +17,7 @@ Excerpt:
 > /ModDate (D:20250814070444+00'00')>>
 > endobj
 > 3 0 obj
+
+
+
+

@@ -1,5 +1,7 @@
+Purpose: Evidence extract (misc/analysis) documenting a failure or relevance; Duplicate of FRV2-0060.
+Contents: Metadata header + excerpt from the source file.
 Context: Consolidated suggestions and proposed patch plan (contains encoding artifacts).
-Source: C:\Users\Moses\OpComp\MUST_Review\MetaMD_Archive\all_suggestions.md
+Source: MUST_Review/MetaMD_Archive/all_suggestions.md
 SHA256: 3169AE5AC44818164F17CF7CD0E5DF71384A813065FF7E4F640C88533FE4BA86
 FailureExplanation: Suggestion document; not direct failure evidence.
 FailureModeTags: 
@@ -24,3 +26,7 @@ Excerpt:
 > - Measure.lean mixes legacy Î¼â€‘only arguments with the lex harness; it imports Termination_Legacy and triggers duplicate decls and unresolved goals. That file is the current source of â€œenvironment already contains â€¦ / unknown identifierâ€ errors.
 > Bottom line. The lex harness is the right final route. Whatâ€™s missing is one lemma: the Î¼â€‘drop for eqW_diff. You should not alter Îº beyond the agreed invariant.
 > ---
+
+
+
+

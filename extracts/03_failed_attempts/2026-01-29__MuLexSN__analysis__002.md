@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; Duplicate of MUST_Review\Legacy\Meta_Lean_Archive\MuLexSN.lean.
+Contents: Metadata header + excerpt from the source file.
 Context: MuLexSN.lean excerpt showing the kappaTop bit and the claimed lexicographic decrease/strong normalization.
-Source: C:\Users\Moses\OpComp\MUST_Review\Legacy\Meta_Lean_Archive\MuLexSN.lean
+Source: MUST_Review/Legacy/Meta_Lean_Archive/MuLexSN.lean
 SHA256: C5DC89EC2EAE442F0DFFA77C53CB4D3C5038A1A9C0D581669F0A05C2D6EE21F3
 FailureExplanation: The proof still depends on MetaSN μ decrease lemmas from legacy termination, so the key measure is imported rather than constructed or validated here.
 FailureModeTags: unsupported_inference
@@ -65,3 +67,7 @@ Call Jayaram Select
 >   exact Subrelation.wf sub wfInv
 >
 > end OperatorKernelO6.MetaLex
+
+
+
+

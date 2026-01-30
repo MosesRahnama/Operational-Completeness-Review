@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; Analysis or notes documenting failures, blockers, or unproven claims.
+Contents: Metadata header + excerpt from the source file.
 Context: File review extract.
-Source: C:\Users\Moses\OpComp\MUST_Review\llm-research.md
+Source: MUST_Review/llm-research.md
 SHA256: F0D02DEDE18C592C2837061F445AF9F63623641BB3787B089821E401D4622B3C
 FailureExplanation: Analysis or notes documenting failures, blockers, or unproven claims.
 FailureModeTags: constraint_violation; proof_obligation_stuck
@@ -15,3 +17,7 @@ Excerpt:
 > implementations. What tools exist (CiME, AProVE, TTT2, etc.) and what
 > are their known limitations when AI generates the termination
 > arguments?
+
+
+
+

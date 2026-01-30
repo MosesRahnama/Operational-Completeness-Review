@@ -1,5 +1,7 @@
+Purpose: Evidence extract (misc/roadmap) documenting a failure or relevance; Duplicate of FRV2-0370.
+Contents: Metadata header + excerpt from the source file.
 Context: Planning roadmap; not a proof artifact.
-Source: C:\Users\Moses\OpComp\MUST_Review\important_2\PredictionRoadmap.md
+Source: MUST_Review/important_2/PredictionRoadmap.md
 SHA256: A09CA7BE586F398B22B22983C271EA7CA8743525BD388B1F2471E2E54865F48C
 FailureExplanation: Planning roadmap; not a proof artifact.
 FailureModeTags: 
@@ -17,3 +19,7 @@ Excerpt:
 > - κ equality at rec_succ is often (wrongly) claimed. Expect strict κ drop or δ-flag handling instead.
 > - Right-add transport of < on ordinals will resurface. Expect hazards; allow only guarded uses (le_add_of_nonneg_*), never global strict transport.
 > - Additive measures under duplication will “almost work” but not strictly drop. Expect a pivot to DM (κᴹ) or a fallback μ/τ drop under ties.
+
+
+
+

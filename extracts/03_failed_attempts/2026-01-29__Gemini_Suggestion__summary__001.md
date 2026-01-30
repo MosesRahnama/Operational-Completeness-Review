@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; Analysis or notes documenting failures, blockers, or unproven claims.
+Contents: Metadata header + excerpt from the source file.
 Context: File review extract.
-Source: C:\Users\Moses\OpComp\MUST_Review\Gemini-Suggestion.md
+Source: MUST_Review/Gemini-Suggestion.md
 SHA256: 9C51048499EBEB9B9AABC73D26634CF2D2E01E4B6A35931FD5B9AA47C30AF08A
 FailureExplanation: Analysis or notes documenting failures, blockers, or unproven claims.
 FailureModeTags: constraint_violation; proof_obligation_stuck
@@ -15,3 +17,7 @@ Excerpt:
 > By publishing, you are saying: "Stop trying to brute-force this wall. We need a new architecture (neuro-symbolic, external verifiers, etc.) to get past this." You are effectively writing the requirements doc for GPT-6, not the obituary for AI.
 > ### 2. The "Safety Valve" Argument
 > You mentioned the "plane crash." This is not a metaphor.
+
+
+
+

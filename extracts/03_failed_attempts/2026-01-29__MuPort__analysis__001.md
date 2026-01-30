@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; Duplicate of Legacy\\MetaMD_Archive\\MuPort.md.
+Contents: Metadata header + excerpt from the source file.
 Context: Excerpt from MuPort showing the 'doomed approach' warning and the placeholder merge_inner_bound_simple' lemma.
-Source: C:\Users\Moses\OpComp\MUST_Review\Legacy\MetaMD_Archive\MuPort.md
+Source: Legacy/MetaMD_Archive/MuPort.md
 SHA256: 888124EDDF8B229110C202647B641CA7767AD92E9B56E3582637C3764F48BAB6
 FailureExplanation: The file flags the rec_succ_bound approach as invalid and includes placeholder lemma signatures, indicating incomplete, non-usable termination scaffolding.
 FailureModeTags: unsupported_inference
@@ -125,3 +127,7 @@ Excerpt:
 >          (omega0 ^ (2 : Ordinal)) * (mu b + 1) + 2 < omega0 ^ (C + 5) :=
 >     omega_pow_add3_lt' k_pos h1_pow h2_pow h_fin
 >   simpa [C] using this
+
+
+
+

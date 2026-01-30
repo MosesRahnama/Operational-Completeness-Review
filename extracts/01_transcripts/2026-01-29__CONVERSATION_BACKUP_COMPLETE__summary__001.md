@@ -1,5 +1,7 @@
+Purpose: Evidence extract (transcripts/transcript) documenting a failure or relevance; Chat transcript documenting model behavior.
+Contents: Metadata header + excerpt from the source file.
 Context: File review extract.
-Source: C:\Users\Moses\OpComp\MUST_Review\CONVERSATION_BACKUP_COMPLETE.md
+Source: MUST_Review/CONVERSATION_BACKUP_COMPLETE.md
 SHA256: 8877CE76F22B7580643255DE4B31F0A307B69326D4A7D0AD61A8B92F3094406C
 FailureExplanation: Chat transcript documenting model behavior.
 FailureModeTags: unsupported_inference
@@ -15,3 +17,7 @@ Excerpt:
 > ## TECHNICAL FOUNDATION & CONSTRAINTS
 > **Project Type**: Axiom-free mathematical foundation in Lean 4
 > **Core Components**: 6 trace constructors + 8 step rules + deterministic normalizer
+
+
+
+

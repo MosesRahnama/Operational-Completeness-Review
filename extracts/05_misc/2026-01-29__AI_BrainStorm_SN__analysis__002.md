@@ -1,5 +1,7 @@
+Purpose: Evidence extract (misc/analysis) documenting a failure or relevance; Planning notes; not direct evidence of a failure, but records proposed remediation steps.
+Contents: Metadata header + excerpt from the source file.
 Context: Plan/brainstorm document summarizing proposed fixes for lexicographic (kappa, mu) termination proof.
-Source: C:\Users\Moses\OpComp\MUST_Review\MetaMD_Archive\AI_BrainStorm_SN.md
+Source: MUST_Review/MetaMD_Archive/AI_BrainStorm_SN.md
 SHA256: 141EF8AC9DDBE7217FDAD41236DCD26CD24958845EBF924E8C12746DD1668FDD
 FailureExplanation: Planning notes; not direct evidence of a failure, but records proposed remediation steps.
 FailureModeTags: 
@@ -77,3 +79,7 @@ Excerpt:
 > ```
 >
 >   Option B: copy the exact lex harness into `SN_Final.lean` if you want a uniform filename; just keep the code identical.
+
+
+
+

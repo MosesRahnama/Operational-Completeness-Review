@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; Analysis or notes documenting failures, blockers, or unproven claims.
+Contents: Metadata header + excerpt from the source file.
 Context: File review extract.
-Source: C:\Users\Moses\OpComp\MUST_Review\Universal_Rules.md
+Source: MUST_Review/Universal_Rules.md
 SHA256: 80A2A540F4241D3983C162B56D3F6342C6F22339A34E0B5E138CEED2F7AACCBC
 FailureExplanation: Analysis or notes documenting failures, blockers, or unproven claims.
 FailureModeTags: constraint_violation; nonconvergence
@@ -15,3 +17,7 @@ Excerpt:
 > 1. Universal_Rules.md (this file)  invariants, kernel spec, protocols, allowed outputs
 > 2. Expanded_Ordinal_Toolkit.md  ordinal API, admissible lemmas, patterns & failures
 > 3. Termination_Consolidation.md  historical termination attempts & measure evolution
+
+
+
+

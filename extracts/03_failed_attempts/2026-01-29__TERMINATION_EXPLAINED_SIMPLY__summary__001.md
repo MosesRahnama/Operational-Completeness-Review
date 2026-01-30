@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; Duplicate of FRV2-0667.
+Contents: Metadata header + excerpt from the source file.
 Context: File review extract.
-Source: C:\Users\Moses\OpComp\MUST_Review\TERMINATION_EXPLAINED_SIMPLY.md
+Source: MUST_Review/TERMINATION_EXPLAINED_SIMPLY.md
 SHA256: 9048E42A8C4039CFAF9AF13A45EC01A8F15BC36F1E76DDECB31CD622176DFF3F
 FailureExplanation: Analysis or notes documenting failures, blockers, or unproven claims.
 FailureModeTags: constraint_violation
@@ -15,3 +17,7 @@ Excerpt:
 > ##  Why Have a Duplicating Rule?
 > **You didn't choose to have it - it emerged naturally from recursion.**
 > The rule `rec b s (delta n)  app s (rec b s n)` is just saying:
+
+
+
+

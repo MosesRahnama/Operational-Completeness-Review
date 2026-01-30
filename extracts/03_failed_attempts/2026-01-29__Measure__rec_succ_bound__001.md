@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; Rec_succ delta-case depends on MetaSN.rec_succ_bound (unsupported), leaving a hard blocker.
+Contents: Metadata header + excerpt from the source file.
 Context: Measure.lean copy with rec_succ_bound dependency in rec_succ delta case.
-Source: C:\Users\Moses\OpComp\MUST_Review\MetaMD_Archive\Measure.md
+Source: MUST_Review/MetaMD_Archive/Measure.md
 SHA256: EDC3A322668F09A5FA6922E94666D18911174E37C274AFBA7E7AB9560A889B3A
 FailureExplanation: Rec_succ delta-case depends on MetaSN.rec_succ_bound (unsupported), leaving a hard blocker.
 FailureModeTags: unsupported_inference; nonconvergence
@@ -78,3 +80,7 @@ Excerpt:
 >         have h_lhs : kappa (recΔ b s (delta (eqW a c))) = base + 1 := by
 >           simp [kappa_rec_delta, base]
 >         exact drop_left (by simpa [h_rhs, h_lhs] using Nat.lt_succ_self base)
+
+
+
+

@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; Analysis or notes documenting failures, blockers, or unproven claims.
+Contents: Metadata header + excerpt from the source file.
 Context: File review extract.
-Source: C:\Users\Moses\OpComp\MUST_Review\Legacy_Evidence_Manifest.md
+Source: MUST_Review/Legacy_Evidence_Manifest.md
 SHA256: 2833319A7BC6BED529E7E65B86EE3AA67411639B264F0982950B8318722BD933
 FailureExplanation: Analysis or notes documenting failures, blockers, or unproven claims.
 FailureModeTags: constraint_violation; nonconvergence
@@ -15,3 +17,7 @@ Excerpt:
 > - Excluded by design: modern safe computable proofs under `OperatorKernelO6/OperatorKernelO6/Meta/`.
 > ---
 > ## Legacy Narrative Docs (MetaMD_Archive)
+
+
+
+

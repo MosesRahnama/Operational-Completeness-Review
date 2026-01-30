@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; Audit notes show the axiom-/numeral-/boolean-free and incompleteness claims depend on missing lemmas and external Bool/Nat/classical features.
+Contents: Metadata header + excerpt from the source file.
 Context: Excerpt from kernel_analysis capturing audit verdicts and impossibility alerts about OTC's axiom-/numeral-/boolean-free claims.
-Source: C:\Users\Moses\OpComp\MUST_Review\Legacy\MetaMD_Archive\kernel_analysis.md
+Source: Legacy/MetaMD_Archive/kernel_analysis.md
 SHA256: 06D45E825EBDE4BC3DA2DA0FE7F4DF40111DA6B9BDF74B4C9B7BE753975A208E
 FailureExplanation: Audit notes show the axiom-/numeral-/boolean-free and incompleteness claims depend on missing lemmas and external Bool/Nat/classical features.
 FailureModeTags: constraint_violation; unsupported_inference; proof_obligation_stuck
@@ -57,3 +59,7 @@ Excerpt:
 > 
 > EXECUTIVE_CRITIQUE_SUMMARY
 > Current OTC prototype defines an interesting four-constructor rewrite system but the advertised reconstruction of arithmetic and both incompleteness theorems is almost entirely aspirational.  None of the foundational meta-properties (strong normalization, confluence, complement uniqueness) are proved; key predicates (SubF, Proof, Prov) lack soundness and completeness.  The code still depends on Lean’s Bool, Nat, classical reasoning—contradicting axiom-, numeral-, and Boolean-free claims.  First incompleteness might be reachable after a substantial proof campaign (lemmas L1–L9) and a full purge of external primitives.  Second incompleteness remains out of scope until derivability conditions are internalised.  Immediate focus must be on (1) formal termination and confluence, (2) elimination of Bool/Nat, and (3) rigorous proof-object checker.
+
+
+
+

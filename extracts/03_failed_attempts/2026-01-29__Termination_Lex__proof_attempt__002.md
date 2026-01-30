@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/proof-attempt) documenting a failure or relevance; The lex proof applies a left-branch kappaTop decrease broadly, but kappaTop can increase for some non-rec_succ transitions, so the measure drop is not justified.
+Contents: Metadata header + excerpt from the source file.
 Context: Excerpt showing lexicographic decrease proof using kappaTop and μ without addressing kappaTop increases on some rules.
-Source: C:\Users\Moses\OpComp\MUST_Review\MetaMD_Archive\Termination_Lex.md
+Source: MUST_Review/MetaMD_Archive/Termination_Lex.md
 SHA256: D5E107C8769B50BEF7F37839AC14B09FCE092F65C9B6B1EA148905D2E89CB9D6
 FailureExplanation: The lex proof applies a left-branch kappaTop decrease broadly, but kappaTop can increase for some non-rec_succ transitions, so the measure drop is not justified.
 FailureModeTags: nondecreasing_measure; unsupported_inference
@@ -17,3 +19,7 @@ Excerpt:
 >     have wf_lex : WellFounded LexNatOrdTop := wf_LexNatOrdTop
 >     refine Subrelation.wf ?_ (InvImage.wf (f := μκTop) wf_lex)
 >     intro x y hxy; simpa using mu_kappa_decreases_lex hxy
+
+
+
+

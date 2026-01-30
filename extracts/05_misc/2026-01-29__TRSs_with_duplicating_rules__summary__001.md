@@ -1,5 +1,7 @@
+Purpose: Evidence extract (misc/reference) documenting a failure or relevance; Background research memo; not a proof artifact.
+Contents: Metadata header + excerpt from the source file.
 Context: Background research memo; not a proof artifact.
-Source: C:\Users\Moses\OpComp\MUST_Review\important_2\Research\TRSs_with_duplicating_rules.md
+Source: MUST_Review/important_2/Research/TRSs_with_duplicating_rules.md
 SHA256: 1E264C9BED66E5547F50379F87F065DE86E4EF2CE8A884F3958FC079FDCB21B1
 FailureExplanation: Background research memo; not a proof artifact.
 FailureModeTags: 
@@ -17,3 +19,7 @@ Excerpt:
 > – indicated in notes.) All CPF proofs were accepted
 > by CeTA. (In early competitions, some proofs contained unsupported steps (e.g. replacing 0-arity symbols with
 > unary for string-reversal
+
+
+
+

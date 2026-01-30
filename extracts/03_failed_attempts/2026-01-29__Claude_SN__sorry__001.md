@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; Explicit `sorry` leaves rec_succ delta branch unproven.
+Contents: Metadata header + excerpt from the source file.
 Context: Claude_SN.lean proof attempt containing an explicit `sorry` in rec_succ delta case.
-Source: C:\Users\Moses\OpComp\MUST_Review\MetaMD_Archive\Claude_SN.md
+Source: MUST_Review/MetaMD_Archive/Claude_SN.md
 SHA256: 71610E31ABBE514DA8B9030271AEAF28E09011186EEB88556A6C3547CE7CBFC2
 FailureExplanation: Explicit `sorry` leaves rec_succ delta branch unproven.
 FailureModeTags: proof_obligation_stuck
@@ -77,3 +79,7 @@ Excerpt:
 >         simp [kappa, base]
 >       apply drop_left
 >       simpa [h_merge, h_rec] using Nat.lt_succ_self base
+
+
+
+

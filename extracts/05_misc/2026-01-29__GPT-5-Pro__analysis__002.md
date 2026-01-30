@@ -1,5 +1,7 @@
+Purpose: Evidence extract (misc/analysis) documenting a failure or relevance; Suggestion document; not direct failure evidence.
+Contents: Metadata header + excerpt from the source file.
 Context: AI-generated plan with proposed patches (includes code blocks).
-Source: C:\Users\Moses\OpComp\MUST_Review\MetaMD_Archive\GPT-5-Pro.md
+Source: MUST_Review/MetaMD_Archive/GPT-5-Pro.md
 SHA256: 2CC1DCF2833D2178BC911132E0BF5B45241295BE2C3CC52BB9F67BDF2C68605D
 FailureExplanation: Suggestion document; not direct failure evidence.
 FailureModeTags: 
@@ -65,3 +67,7 @@ Excerpt:
 > le_omega_pow, termA_le, termB_le, and the main mu_lt_eq_diff. One‑liners are explained in comments and obey the toolkit (ordinal APIs only). We add one import: Mathlib.SetTheory.Ordinal.Principal (allowed in §1/“Additional Import”).
 >
 > Harness: keep a single WF harness file. Below I give SN_Final.lean and you should not build Termination_Lex.lean or MuLexSN.lean concurrently (those earlier files contained placeholders). The harness uses noncomputable def muHat (fixing your earlier “depends on noncomputable” error).
+
+
+
+

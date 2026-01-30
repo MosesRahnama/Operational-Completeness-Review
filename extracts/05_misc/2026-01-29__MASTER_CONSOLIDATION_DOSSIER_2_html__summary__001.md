@@ -1,5 +1,7 @@
+Purpose: Evidence extract (misc/pdf) documenting a failure or relevance; Duplicate of FRV2-0579.
+Contents: Metadata header + excerpt from the source file.
 Context: File review extract.
-Source: C:\Users\Moses\OpComp\MUST_Review\MASTER CONSOLIDATION DOSSIER (2).html.pdf
+Source: MUST_Review/MASTER CONSOLIDATION DOSSIER (2).html.pdf
 SHA256: CA61F430DB5FFBB4A9550809532C36BF753D996746DC519E4F137369AD0CAC82
 FailureExplanation: PDF document; requires review for technical claims.
 FailureModeTags: 
@@ -15,3 +17,7 @@ Excerpt:
 > /ModDate (D:20250811065551+00'00')>>
 > endobj
 > 3 0 obj
+
+
+
+

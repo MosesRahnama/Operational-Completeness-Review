@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; Analysis or notes documenting failures, blockers, or unproven claims.
+Contents: Metadata header + excerpt from the source file.
 Context: File review extract.
-Source: C:\Users\Moses\OpComp\MUST_Review\ko6_guide.md
+Source: MUST_Review/ko6_guide.md
 SHA256: 55A6C1364B1DAE616E723CFF0AD8CBE1BAEE6AB7769A704D62CBCBCBA9CF0A0A
 FailureExplanation: Analysis or notes documenting failures, blockers, or unproven claims.
 FailureModeTags: constraint_violation; nonconvergence
@@ -15,3 +17,7 @@ Excerpt:
 > 2. **Inside kernel:** no `Nat`, `Bool`, numerals, `simp`, `rfl`, patternmatches on nonkernel stuff. Only `Prop` + recursors.
 > 3. **Meta land:** You may use Nat/Bool, classical, tactics, WF recursion, and mostly the imports/lemmas listed in 8.
 > 4. **Main jobs:** SN, normalizejoin confluence, arithmetic via `rec`, internal equality via `eqW`, provability & Gdel.
+
+
+
+

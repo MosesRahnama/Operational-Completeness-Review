@@ -1,5 +1,7 @@
+Purpose: Evidence extract (misc/reference) documenting a failure or relevance; Background research memo; not a proof artifact.
+Contents: Metadata header + excerpt from the source file.
 Context: Background research memo; not a proof artifact.
-Source: C:\Users\Moses\OpComp\MUST_Review\important_2\Research\Session_3_Independence_Witnesses_Goodstein_Hydra.md
+Source: MUST_Review/important_2/Research/Session_3_Independence_Witnesses_Goodstein_Hydra.md
 SHA256: C9629013BE87705A72F601268FDF6848C121F8C594F1290130F8481921535141
 FailureExplanation: Background research memo; not a proof artifact.
 FailureModeTags: 
@@ -17,3 +19,7 @@ Excerpt:
 > SIG  S/1, Z/0, s/1, state/2.
 > RULES
 > state(b, s(t)) -> state(S(b), t).
+
+
+
+

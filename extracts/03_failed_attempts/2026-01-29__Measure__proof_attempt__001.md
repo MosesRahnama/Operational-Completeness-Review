@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/proof-attempt) documenting a failure or relevance; The rec_succ case depends on MetaSN.rec_succ_bound, a disallowed domination assumption, so the lex measure proof is invalid under project constraints.
+Contents: Metadata header + excerpt from the source file.
 Context: Excerpt from Measure.md showing the lexicographic measure proof and its reliance on rec_succ_bound in the rec_succ delta case.
-Source: C:\Users\Moses\OpComp\MUST_Review\Legacy\MetaMD_Archive\Measure.md
+Source: Legacy/MetaMD_Archive/Measure.md
 SHA256: EDC3A322668F09A5FA6922E94666D18911174E37C274AFBA7E7AB9560A889B3A
 FailureExplanation: The rec_succ case depends on MetaSN.rec_succ_bound, a disallowed domination assumption, so the lex measure proof is invalid under project constraints.
 FailureModeTags: constraint_violation; unsupported_inference
@@ -166,3 +168,7 @@ Excerpt:
 >         have h_lhs : kappa (recΔ b s (delta (eqW a c))) = base + 1 := by
 >           simp [kappa_rec_delta, base]
 >         exact drop_left (by simpa [h_rhs, h_lhs] using Nat.lt_succ_self base)
+
+
+
+

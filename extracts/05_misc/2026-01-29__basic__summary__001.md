@@ -1,5 +1,7 @@
+Purpose: Evidence extract (misc/code) documenting a failure or relevance; Lean source file; not evidence of proof success alone.
+Contents: Metadata header + excerpt from the source file.
 Context: File review extract.
-Source: C:\Users\Moses\OpComp\MUST_Review\basic.lean
+Source: MUST_Review/basic.lean
 SHA256: 1D9F37746306CDDAE89767B08533EF06AB27D83DCFF23A079DBFBEB84331F6A4
 FailureExplanation: Lean source file; not evidence of proof success alone.
 FailureModeTags: 
@@ -15,3 +17,7 @@ Excerpt:
 > | wrap : OpTerm -> OpTerm
 > | weave : OpTerm -> OpTerm -> OpTerm
 > deriving Repr, DecidableEq
+
+
+
+

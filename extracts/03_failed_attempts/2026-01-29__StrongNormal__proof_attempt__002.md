@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/proof-attempt) documenting a failure or relevance; The proof depends on ? lemmas (e.g., mu_lt_eq_diff) and a measure_drop_of_step lemma that are disputed or incomplete in other files, so SN is not established here.
+Contents: Metadata header + excerpt from the source file.
 Context: Excerpt showing the final SN theorem relying on μ lemmas and a measure-drop lemma defined elsewhere.
-Source: C:\Users\Moses\OpComp\MUST_Review\MetaMD_Archive\StrongNormal.md
+Source: MUST_Review/MetaMD_Archive/StrongNormal.md
 SHA256: 6190AC5058EBD2772FCF1F6F826E39993969FBEB8A05A3B604CA1695F008991F
 FailureExplanation: The proof depends on μ lemmas (e.g., mu_lt_eq_diff) and a measure_drop_of_step lemma that are disputed or incomplete in other files, so SN is not established here.
 FailureModeTags: proof_obligation_stuck
@@ -18,3 +20,7 @@ Excerpt:
 >   have sub : Subrelation StepRev (InvImage LexNatOrd muHat) := by
 >     intro a b h; exact measure_drop_of_step h
 >   exact Subrelation.wf sub wfMeasure
+
+
+
+

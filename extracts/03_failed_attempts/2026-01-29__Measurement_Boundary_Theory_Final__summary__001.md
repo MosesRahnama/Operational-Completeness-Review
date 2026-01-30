@@ -1,5 +1,7 @@
+Purpose: Evidence extract (failed_attempts/analysis) documenting a failure or relevance; Duplicate of FRV2-0583.
+Contents: Metadata header + excerpt from the source file.
 Context: File review extract.
-Source: C:\Users\Moses\OpComp\MUST_Review\Measurement_Boundary_Theory_Final.md
+Source: MUST_Review/Measurement_Boundary_Theory_Final.md
 SHA256: 68E4A1B77DB90FBE262272B977A5ED4F474F9E4FBB8879D46AD7DB0DE267D464
 FailureExplanation: Analysis or notes documenting failures, blockers, or unproven claims.
 FailureModeTags: constraint_violation
@@ -15,3 +17,7 @@ Excerpt:
 > ---
 > ## 1. Introduction
 > The apparent incompatibility between quantum mechanics (QM) and general relativity (GR) has motivated extensive searches for unified theories [1-3]. We propose instead that QM and GR are complementary descriptions separated by measurementspecifically, by thermodynamically irreversible boundary events (B-events) that cost E  kBT ln 2 per bit of classical information created [4,5].
+
+
+
+

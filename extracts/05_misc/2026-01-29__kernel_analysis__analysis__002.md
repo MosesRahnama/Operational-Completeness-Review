@@ -1,5 +1,7 @@
+Purpose: Evidence extract (misc/analysis) documenting a failure or relevance; Duplicate of FRV2-0070.
+Contents: Metadata header + excerpt from the source file.
 Context: Kernel analysis text with proposed OperatorMath.O6Final kernel and roadmap.
-Source: C:\Users\Moses\OpComp\MUST_Review\MetaMD_Archive\kernel_analysis.md
+Source: MUST_Review/MetaMD_Archive/kernel_analysis.md
 SHA256: 06D45E825EBDE4BC3DA2DA0FE7F4DF40111DA6B9BDF74B4C9B7BE753975A208E
 FailureExplanation: Design analysis; not direct failure evidence.
 FailureModeTags: 
@@ -910,3 +912,7 @@ Excerpt:
 > • Σ₁-completeness (C23) impossible without reflection NEW-PRIM or strengthened kernel.
 > • Negation uniqueness (C3) fails unless L3 proved or merge commutativity added.
 > • Boolean-freedom impossible while DecidableEq returns Bool unless redesign adopted.
+
+
+
+

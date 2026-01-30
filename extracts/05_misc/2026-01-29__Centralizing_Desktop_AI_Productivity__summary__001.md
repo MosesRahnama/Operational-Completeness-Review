@@ -1,5 +1,7 @@
+Purpose: Evidence extract (misc/reference) documenting a failure or relevance; Background research memo; not a proof artifact.
+Contents: Metadata header + excerpt from the source file.
 Context: Background research memo; not a proof artifact.
-Source: C:\Users\Moses\OpComp\MUST_Review\important_2\Research\Centralizing_Desktop_AI_Productivity.md
+Source: MUST_Review/important_2/Research/Centralizing_Desktop_AI_Productivity.md
 SHA256: AC9030C0806E0CE9F6EE3C0C7DA07AF2E9B2A4CB8A74952CFA2E77D93DADC789
 FailureExplanation: Background research memo; not a proof artifact.
 FailureModeTags: 
@@ -17,3 +19,7 @@ Excerpt:
 > ### Top Recommendation
 > PyGPT is unequivocally the best solution for the specified requirements. It is a free, open-source desktop AI assistant that excels across all evaluation criteria, offering unparalleled flexibility as a central AI hub, deep system integration through a robust plugin architecture, and the most direct and powerful pathway for leveraging existing Google Vertex AI credits.
 > ### Supporting Rationale
+
+
+
+
