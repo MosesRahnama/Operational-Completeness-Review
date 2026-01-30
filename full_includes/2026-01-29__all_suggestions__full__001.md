@@ -491,7 +491,7 @@ Apply
 -- In SN_Final.lean, replace the entire R_rec_succ case with:
 | _, _, Step.R_rec_succ b s n => by
 -- Just use κ-drop for ALL rec_succ cases
-have hk : kappa (merge s (recΔ b s n)) < kappa (recΔ b s (delta n)) := by
+have hk : kappa (app s (recΔ b s n)) < kappa (recΔ b s (delta n)) := by
 -- Prove this like in Termination_Lex
 sorry  -- Actually provable!
 exact drop_left hk
@@ -643,7 +643,7 @@ Low risk: the plan changes only call‑sites and imports, not the kernel or rule
 Biggest operational risk: name drift (e.g., calling mu_lt_eq_diff from the wrong module, or re‑introducing a legacy import that shadows the canonical lemma names). Mitigate by grepping for the exact symbol and pointing the harness to that file.
 Acceptance criteria this plan should meet
 A single exported SN theorem (from SN_Final or the lex harness) that imports Kernel and Meta.Termination, not Termination_Legacy.
-R_rec_succ uses drop_left with a local base and two equalities: κ(merge s (recΔ b s n)) = base and κ(recΔ b s (delta n)) = base + 1, closed via Nat.max_eq_right and Nat.lt_succ_self.
+R_rec_succ uses drop_left with a local base and two equalities: κ(app s (recΔ b s n)) = base and κ(recΔ b s (delta n)) = base + 1, closed via Nat.max_eq_right and Nat.lt_succ_self.
 R_eq_diff uses MetaSN.mu_lt_eq_diff via drop_right with κ equality.
 Build passes without sorry/admit in active files. Grep for “sorry|admit” returns only quarantined/legacy files not imported by SN_Final.
 Suggested sequencing
@@ -664,7 +664,7 @@ Objective take
 
 The claim is correct: the file OperatorKernelO6/Meta/Termination_Lex.lean already contains a complete, clean strong-normalization proof.
 It defines kappaD with the +1 bump only at recΔ _ _ (delta _).
-It proves a key lemma kappaD_drop_recSucc that shows, for every b s n, the step recΔ b s (delta n) → merge s (recΔ b s n) strictly drops κ. This removes any need for μ in the rec-succ case.
+It proves a key lemma kappaD_drop_recSucc that shows, for every b s n, the step recΔ b s (delta n) → app s (recΔ b s n) strictly drops κ. This removes any need for μ in the rec-succ case.
 The other seven Step rules are handled by μ-drop lemmas (void→integrate, merge-void left/right, merge-cancel, rec-zero, eq-refl, eq-diff).
 The harness is standard: (κ, μ) under Prod.Lex (·<·) (·<·) and a pullback via InvImage.wf.
 Why this is the right final route
@@ -855,7 +855,7 @@ After thoroughly analyzing all the AI suggestions, I've identified remarkable co
 
 ### **Core Consensus Points (All AIs Agree)**
 
-1. **The `rec_succ_bound` is mathematically impossible** - This inequality `μ(merge s (recΔ b s n)) < μ(recΔ b s (delta n))` cannot hold globally. GPT-5 correctly identifies the exponent mismatch as insurmountable.
+1. **The `rec_succ_bound` is mathematically impossible** - This inequality `μ(app s (recΔ b s n)) < μ(recΔ b s (delta n))` cannot hold globally. GPT-5 correctly identifies the exponent mismatch as insurmountable.
 
 2. **The lexicographic `(κ, μ)` approach is correct** - All AIs converge on this being the right framework.
 
@@ -1023,6 +1023,7 @@ exact drop_right hμ hk.symm
 (Everything else already follows the 7×μ / 1×κ scheme you curated.) all_suggestions
 
 Lake / imports: drop Termination_Legacy.lean and any “μ-only Measure” file from the build used by the final SN theorem. Keep only the lex harness exporting SN.
+
 
 
 

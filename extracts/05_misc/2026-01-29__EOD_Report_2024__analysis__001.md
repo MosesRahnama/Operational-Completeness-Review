@@ -42,8 +42,8 @@ Excerpt:
 > ## ðŸ” Today's Key Discoveries
 >
 > ### 1. The Mathematical Truth (Unanimous AI Consensus)
-> - **The `rec_succ_bound` inequality is impossible** - Cannot prove `Î¼(merge s (recÎ” b s n)) < Î¼(recÎ” b s (delta n))`
-> - **The solution:** Lexicographic `(Îº, Î¼)` where Îº drops ONLY on `recÎ” b s (delta n) â†’ merge s (recÎ” b s n)`
+> - **The `rec_succ_bound` inequality is impossible** - Cannot prove `Î¼(app s (recÎ” b s n)) < Î¼(recÎ” b s (delta n))`
+> - **The solution:** Lexicographic `(Îº, Î¼)` where Îº drops ONLY on `recÎ” b s (delta n) â†’ app s (recÎ” b s n)`
 > - **For other 7 rules:** Î¼ handles the decrease
 >
 > ### 2. The Critical File Status
@@ -126,6 +126,7 @@ Excerpt:
 > ---
 >
 > ## âš ï¸ Critical Warnings
+
 
 
 

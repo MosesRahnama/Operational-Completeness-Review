@@ -33,7 +33,7 @@ The paper argues that “operational completeness” fails for the targeted oper
 ## Key finding: the rec_succ rule
 The system’s reduction rule
 ```lean
-R_rec_succ : ∀ b s n, Step (recΔ b s (δ n)) (merge s (recΔ b s n))
+R_rec_succ : ∀ b s n, Step (recΔ b s (δ n)) (app s (recΔ b s n))
 ```
 combines:
 1) **Self‑reference** — `recΔ` appears on both sides

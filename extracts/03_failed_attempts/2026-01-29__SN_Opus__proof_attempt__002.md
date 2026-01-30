@@ -15,14 +15,15 @@ Excerpt:
 >   simp [baseLayer]
 >   linarith
 > 
-> -- R_rec_succ: recΔ b s (delta n) → merge s (recΔ b s n)
+> -- R_rec_succ: recΔ b s (delta n) → app s (recΔ b s n)
 > -- This is the crucial case that motivated the double-exponent construction
 > theorem mu2_decrease_rec_succ (b s n : Trace) :
->     μ₂ (merge s (recΔ b s n)) < μ₂ (recΔ b s (delta n)) := by
+>     μ₂ (app s (recΔ b s n)) < μ₂ (recΔ b s (delta n)) := by
 >   unfold μ₂
 >   apply double_exp_monotone
 >   simp [baseLayer]
 >   -- Key insight: delta wrapper creates exponential gap
+
 
 
 

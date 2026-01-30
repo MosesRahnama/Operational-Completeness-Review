@@ -850,7 +850,7 @@ Excerpt:
 > lemma mu_merge_lt_rec {b s n : Trace}
 >   (h_mu_recΔ_bound : omega0 ^ (MetaSN.mu n + MetaSN.mu s + (6 : Ordinal)) + omega0 * (MetaSN.mu b + 1) + 1 + 3 <
 >                      (omega0 ^ (5 : Ordinal)) * (MetaSN.mu n + 1) + 1 + MetaSN.mu s + 6) :
->   MetaSN.mu (merge s (recΔ b s n)) < MetaSN.mu (recΔ b s (delta n)) := by
+>   MetaSN.mu (app s (recΔ b s n)) < MetaSN.mu (recΔ b s (delta n)) := by
 >   -- rename the dominant tower once and for all
 >   set A : Ordinal := omega0 ^ (MetaSN.mu (delta n) + MetaSN.mu s + 6) with hA
 >   -- ❶  head        (ω³ payload)  < A
@@ -933,9 +933,9 @@ Excerpt:
 >     rw [hA]
 >     exact this
 >   -- ❺  chain inequalities.
->   have : MetaSN.mu (merge s (recΔ b s n)) < A := by
+>   have : MetaSN.mu (app s (recΔ b s n)) < A := by
 >     -- rewrite μ(merge …) exactly and apply `h_sum`
->     have eq_mu : MetaSN.mu (merge s (recΔ b s n)) =
+>     have eq_mu : MetaSN.mu (app s (recΔ b s n)) =
 >         omega0 ^ (3 : Ordinal) * (MetaSN.mu s + 1) +
 >         (omega0 ^ (2 : Ordinal) * (MetaSN.mu (recΔ b s n) + 1) + 1) := by
 >       -- MetaSN.mu (merge a b) = ω³ * (μa + 1) + ω² * (μb + 1) + 1
@@ -949,7 +949,7 @@ Excerpt:
 > @[simp] lemma mu_lt_rec_succ (b s n : Trace)
 >   (h_mu_recΔ_bound : omega0 ^ (MetaSN.mu n + MetaSN.mu s + (6 : Ordinal)) + omega0 * (MetaSN.mu b + 1) + 1 + 3 <
 >                      (omega0 ^ (5 : Ordinal)) * (MetaSN.mu n + 1) + 1 + MetaSN.mu s + 6) :
->   MetaSN.mu (merge s (recΔ b s n)) < MetaSN.mu (recΔ b s (delta n)) := by
+>   MetaSN.mu (app s (recΔ b s n)) < MetaSN.mu (recΔ b s (delta n)) := by
 >   simpa using mu_merge_lt_rec h_mu_recΔ_bound
 > 
 > /-- Helper: lift mu-strict decrease to lexicographic order when kappa is unchanged -/
@@ -962,7 +962,7 @@ Excerpt:
 > 
 > /-- Lexicographic decrease for R_rec_succ: kappa strictly decreases -/
 > lemma μκ_lt_R_rec_succ (b s n : Trace) :
->   LexNatOrd (μκ (merge s (recΔ b s n))) (μκ (recΔ b s (delta n))) := by
+>   LexNatOrd (μκ (app s (recΔ b s n))) (μκ (recΔ b s (delta n))) := by
 >   unfold LexNatOrd μκ
 >   apply Prod.Lex.left
 >   simp [kappa]
@@ -1459,6 +1459,7 @@ Excerpt:
 >   rw [hk]
 >   -- Now apply Prod.Lex.right with definitionally equal first components
 >   exact Prod.Lex.right (kappaTop t) h
+
 
 
 

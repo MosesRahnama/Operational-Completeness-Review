@@ -23,12 +23,12 @@ Excerpt:
 >   deltaFlag (recΔ b s (delta n)) = 1 := rfl
 > 
 > @[simp] lemma deltaFlag_recSucc_right (b s n) :
->   deltaFlag (merge s (recΔ b s n)) = 0 := by
+>   deltaFlag (app s (recΔ b s n)) = 0 := by
 >   simp [deltaFlag]
 > 
 > /-- Strict drop of `deltaFlag` for the recursion-successor rewrite. -/
 > lemma flag_drop_recSucc (b s n : Trace) :
->   deltaFlag (merge s (recΔ b s n)) < deltaFlag (recΔ b s (delta n)) := by
+>   deltaFlag (app s (recΔ b s n)) < deltaFlag (recΔ b s (delta n)) := by
 >   simp [deltaFlag]
 > 
 > /-- Canonical recursion-depth κ: max-based; +2 bump at `recΔ _ _ (delta _)`. -/
@@ -52,7 +52,7 @@ Excerpt:
 > 
 > /-- κ strictly drops for every rec-succ step. -/
 > lemma kappa_drop_recSucc (b s n : Trace) :
->   kappa (merge s (recΔ b s n)) < kappa (recΔ b s (delta n)) := by
+>   kappa (app s (recΔ b s n)) < kappa (recΔ b s (delta n)) := by
 >   -- shared base term
 >   let base : Nat := Nat.max (Nat.max (kappa b) (kappa s)) (kappa n)
 > 
@@ -63,7 +63,7 @@ Excerpt:
 >     | _       => simp [kappa, base]
 > 
 >   /- 2. κ(merge s …) ≤ base + 1 via max_le -/
->   have h_merge : kappa (merge s (recΔ b s n)) ≤ base + 1 := by
+>   have h_merge : kappa (app s (recΔ b s n)) ≤ base + 1 := by
 >     have h_s : kappa s ≤ base :=
 >       (Nat.le_max_right _ _).trans (Nat.le_max_left _ _)
 >     have : max (kappa s) (kappa (recΔ b s n)) ≤ base + 1 :=
@@ -75,7 +75,7 @@ Excerpt:
 >     simp [kappa_rec_delta, base]
 > 
 >   /- 4. Assemble strict inequality -/
->   have : kappa (merge s (recΔ b s n)) < base + 2 :=
+>   have : kappa (app s (recΔ b s n)) < base + 2 :=
 >     Nat.lt_of_le_of_lt h_merge (Nat.lt_succ_self (base + 1))
 >   simpa [h_rhs] using this
 > 
@@ -222,6 +222,7 @@ Excerpt:
 >     exact lift_inner hinner hδ.symm
 > 
 > /-- The reverse step relation (for forward normalization). -/
+
 
 
 

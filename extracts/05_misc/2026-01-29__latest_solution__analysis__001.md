@@ -82,7 +82,7 @@ Excerpt:
 > Îº nonâ€‘increasing (equal if Îº(b) is the dominating branch; if it drops, itâ€™s fine but we wonâ€™t rely on it). Î¼ mu_lt_rec_zero (a.k.a. mu_lt_rec_base, already there).
 > Lean prefer right branch with equality when Îº equal; otherwise we can also pass left branch (still a decrease). (This is why I need CBâ€‘1 to allow â‰¤.)
 >
-> R_rec_succ  recÎ” b s (delta n) â†’ merge s (recÎ” b s n)
+> R_rec_succ  recÎ” b s (delta n) â†’ app s (recÎ” b s n)
 > Îº strict drop (proved by a small Nat lemmaâ€”exists in your draft as kappaD_drop_recSucc).
 > Lean Prod.Lex.left â€¹â€¦â€º.
 >
@@ -211,7 +211,7 @@ Excerpt:
 >
 > Îº behavior
 >
-> recÎ” b s (delta n) â†’ merge s (recÎ” b s n) Îº drops by 1 (we prove a tiny Nat max fact).
+> recÎ” b s (delta n) â†’ app s (recÎ” b s n) Îº drops by 1 (we prove a tiny Nat max fact).
 >
 > All other 7 rules Îº is unchanged (or not larger). We therefore use Î¼â€‘drop on the right branch of the lex.
 >
@@ -683,6 +683,7 @@ Excerpt:
 > Request for GPT-Claude Opus
 > Reasoned for 6m 52s
 > alright â€” deep breath. i went through your bundle again and focused on the new â€œMeasure.leanâ€ situation and the eq-diff Î¼â€‘drop. hereâ€™s the bottom line and a clean plan you can paste in.
+
 
 
 

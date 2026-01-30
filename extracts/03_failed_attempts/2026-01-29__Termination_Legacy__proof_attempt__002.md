@@ -10,8 +10,9 @@ Excerpt:
 > @[simp] lemma mu_lt_rec_succ (b s n : Trace)
 >   (h_mu_recΔ_bound : omega0 ^ (mu n + mu s + (6 : Ordinal)) + omega0 * (mu b + 1) + 1 + 3 <
 >                      (omega0 ^ (5 : Ordinal)) * (mu n + 1) + 1 + mu s + 6) :
->   mu (merge s (recΔ b s n)) < mu (recΔ b s (delta n)) := by
+>   mu (app s (recΔ b s n)) < mu (recΔ b s (delta n)) := by
 >   simpa using mu_merge_lt_rec h_mu_recΔ_bound
+
 
 
 

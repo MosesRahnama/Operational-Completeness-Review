@@ -117,7 +117,7 @@ theorem measure_decreases : ∀ {a b : Trace}, Step a b → LexOrder (measure b)
       have h_bound : omega0 ^ (MetaSN.mu (delta m) + MetaSN.mu s + (6 : Ordinal)) + omega0 * (MetaSN.mu b + 1) + 1 + 3 <
                      (omega0 ^ (5 : Ordinal)) * (MetaSN.mu (delta m) + 1) + 1 + MetaSN.mu s + 6 := sorry
       have hμ := MetaSN.mu_lt_rec_succ b s (delta m) h_bound
-      have hk : kappa (merge s (recΔ b s (delta m))) = kappa (recΔ b s (delta (delta m))) := by
+      have hk : kappa (app s (recΔ b s (delta m))) = kappa (recΔ b s (delta (delta m))) := by
         have hs_le : kappa s ≤ Nat.max (Nat.max (kappa b) (kappa s)) (kappa m) := by
           exact le_trans (Nat.le_max_right _ _) (Nat.le_max_left _ _)
         have h_rec : kappa (recΔ b s (delta m)) = Nat.max (Nat.max (kappa b) (kappa s)) (kappa m) + 1 := by
@@ -134,7 +134,7 @@ theorem measure_decreases : ∀ {a b : Trace}, Step a b → LexOrder (measure b)
       let base := Nat.max (Nat.max (kappa b) (kappa s)) 0
       have hs_le : kappa s ≤ base :=
         le_trans (Nat.le_max_right _ _) (Nat.le_max_left _ _)
-      have h_merge : kappa (merge s (recΔ b s void)) = base := by
+      have h_merge : kappa (app s (recΔ b s void)) = base := by
         simp [kappa, base]
       have h_rec : kappa (recΔ b s (delta void)) = base + 1 := by
         simp [kappa, base]
@@ -144,7 +144,7 @@ theorem measure_decreases : ∀ {a b : Trace}, Step a b → LexOrder (measure b)
       let base := Nat.max (Nat.max (kappa b) (kappa s)) (kappa t)
       have hs_le : kappa s ≤ base :=
         le_trans (Nat.le_max_right _ _) (Nat.le_max_left _ _)
-      have h_merge : kappa (merge s (recΔ b s (integrate t))) = base := by
+      have h_merge : kappa (app s (recΔ b s (integrate t))) = base := by
         simp [kappa, base]
       have h_rec : kappa (recΔ b s (delta (integrate t))) = base + 1 := by
         simp [kappa, base]
@@ -154,7 +154,7 @@ theorem measure_decreases : ∀ {a b : Trace}, Step a b → LexOrder (measure b)
       let base := Nat.max (Nat.max (kappa b) (kappa s)) (Nat.max (kappa t1) (kappa t2))
       have hs_le : kappa s ≤ base :=
         le_trans (Nat.le_max_right _ _) (Nat.le_max_left _ _)
-      have h_merge : kappa (merge s (recΔ b s (merge t1 t2))) = base := by
+      have h_merge : kappa (app s (recΔ b s (merge t1 t2))) = base := by
         simp [kappa, base]
       have h_rec : kappa (recΔ b s (delta (merge t1 t2))) = base + 1 := by
         simp [kappa, base]
@@ -164,7 +164,7 @@ theorem measure_decreases : ∀ {a b : Trace}, Step a b → LexOrder (measure b)
       let base := Nat.max (Nat.max (kappa b) (kappa s)) (kappa (recΔ t1 t2 t3))
       have hs_le : kappa s ≤ base :=
         le_trans (Nat.le_max_right _ _) (Nat.le_max_left _ _)
-      have h_merge : kappa (merge s (recΔ b s (recΔ t1 t2 t3))) = base := by
+      have h_merge : kappa (app s (recΔ b s (recΔ t1 t2 t3))) = base := by
         simp [kappa, base]
       have h_rec : kappa (recΔ b s (delta (recΔ t1 t2 t3))) = base + 1 := by
         simp [kappa, base]
@@ -174,7 +174,7 @@ theorem measure_decreases : ∀ {a b : Trace}, Step a b → LexOrder (measure b)
       let base := Nat.max (Nat.max (kappa b) (kappa s)) (Nat.max (kappa t1) (kappa t2))
       have hs_le : kappa s ≤ base :=
         le_trans (Nat.le_max_right _ _) (Nat.le_max_left _ _)
-      have h_merge : kappa (merge s (recΔ b s (eqW t1 t2))) = base := by
+      have h_merge : kappa (app s (recΔ b s (eqW t1 t2))) = base := by
         simp [kappa, base]
       have h_rec : kappa (recΔ b s (delta (eqW t1 t2))) = base + 1 := by
         simp [kappa, base]
@@ -219,6 +219,7 @@ end ClaudeSN
 export ClaudeSN (strong_normalization)
 
 ```
+
 
 
 

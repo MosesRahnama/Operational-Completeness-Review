@@ -126,22 +126,22 @@ lemma drop_right {a b : Trace} (hμ : MetaSN.mu b < MetaSN.mu a) (hk : kappa b =
 
 #### The Failing Rule (1/8)
 
-**R_rec_succ**: `recΔ b s (delta n) → merge s (recΔ b s n)`
+**R_rec_succ**: `recΔ b s (delta n) → app s (recΔ b s n)`
 
 This rule requires two sub-cases:
 
 **Sub-case 1**: n is not of form `delta m`
 - Let `base = max(max(κ(b), κ(s)), κ(n))`
 - κ(recΔ b s (delta n)) = base + 1
-- κ(merge s (recΔ b s n)) = base
+- κ(app s (recΔ b s n)) = base
 - **Proof**: κ decreases by 1, use `drop_left`
 - **Status**: ✓ Works
 
 **Sub-case 2**: n = `delta m` (THE PROBLEM CASE)
 - κ(recΔ b s (delta (delta m))) = max(max(κ(b), κ(s)), κ(m)) + 1
-- κ(merge s (recΔ b s (delta m))) = max(max(κ(b), κ(s)), κ(m)) + 1
+- κ(app s (recΔ b s (delta m))) = max(max(κ(b), κ(s)), κ(m)) + 1
 - κ is EQUAL, so we need μ to decrease
-- **Required**: μ(merge s (recΔ b s (delta m))) < μ(recΔ b s (delta (delta m)))
+- **Required**: μ(app s (recΔ b s (delta m))) < μ(recΔ b s (delta (delta m)))
 - **This requires**: The bound inequality that is mathematically FALSE
 - **Status**: ✗ FAILS
 
@@ -209,6 +209,7 @@ The Claude_SN approach is 87.5% successful, with a clean architecture and correc
 3. Accept parameterization/incompleteness
 
 The current file serves as excellent documentation of why the naive (κ, μ) lexicographic approach fails and what would be needed for a complete proof.
+
 
 
 

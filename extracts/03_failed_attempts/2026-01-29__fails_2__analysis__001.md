@@ -8,7 +8,8 @@ FailureModeTags: nondecreasing_measure; unsupported_inference
 
 Excerpt:
 > The Core Pattern: AIs repeatedly make the same errors (wishful math, local thinking, arithmetic blindness)...
-> The Problematic Rule: recΔ b s (δ n) → merge s (recΔ b s n)
+> The Problematic Rule: recΔ b s (δ n) → app s (recΔ b s n)
+
 
 
 

@@ -38,7 +38,7 @@ Excerpt:
 >   exact Nat.le_max_left _ _
 > 
 > @[simp] theorem kappa_eq_rec_succ (b s n : Trace) :
->     kappa (merge s (recΔ b s n)) = kappa (recΔ b s (delta n)) := by
+>     kappa (app s (recΔ b s n)) = kappa (recΔ b s (delta n)) := by
 >   simp only [kappa] -- Unfold kappa on both sides
 >   apply Nat.max_eq_right
 >   -- Goal: kappa s ≤ 1 + max (kappa b) (max (kappa s) (kappa n))
@@ -48,6 +48,7 @@ Excerpt:
 > 
 > @[simp] theorem kappa_le_eq_refl (a : Trace) : kappa .void ≤ kappa (eqW a a) := by
 >   simp [kappa, Nat.zero_le]
+
 
 
 

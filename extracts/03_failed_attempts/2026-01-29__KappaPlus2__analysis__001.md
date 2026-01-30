@@ -37,7 +37,7 @@ Excerpt:
 >
 > /-- Strict κ drop for successor reduction. -/
 > lemma drop_recSucc (b s n : Trace) :
->   kappa (merge s (recΔ b s n)) < kappa (recΔ b s (delta n)) := by
+>   kappa (app s (recΔ b s n)) < kappa (recΔ b s (delta n)) := by
 >   let base : Nat := max (max (kappa b) (kappa s)) (kappa n)
 >
 >   -- κ(rec) ≤ base + 2   (note the +2, not +1)
@@ -47,7 +47,7 @@ Excerpt:
 >     | _       => simp [kappa, base, le_rfl]
 >
 >   -- κ(merge) ≤ base + 2
->   have h_merge : kappa (merge s (recΔ b s n)) ≤ base + 2 := by
+>   have h_merge : kappa (app s (recΔ b s n)) ≤ base + 2 := by
 >     have h_s : kappa s ≤ base :=
 >       (le_max_right _ _).trans (le_max_left _ _)
 >     have : max (kappa s) (kappa (recΔ b s n)) ≤ base + 2 :=
@@ -58,9 +58,10 @@ Excerpt:
 >   have h_rhs : kappa (recΔ b s (delta n)) = base + 3 := by
 >     simp [kappa_rec_succ, base]
 >
->   have : kappa (merge s (recΔ b s n)) < base + 3 :=
+>   have : kappa (app s (recΔ b s n)) < base + 3 :=
 >     lt_of_le_of_lt h_merge (lt_succ_self _)
 >   simpa [h_rhs] using this
+
 
 
 

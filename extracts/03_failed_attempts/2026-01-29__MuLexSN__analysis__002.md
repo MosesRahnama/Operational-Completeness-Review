@@ -34,7 +34,7 @@ Call Jayaram Select
 >   unfold LexNatOrdTop μκ; simpa [hκ] using Prod.Lex.right _ hμ
 >
 > lemma drop_rec_succ (b s n : Trace) :
->   LexNatOrdTop (μκ (merge s (recΔ b s n))) (μκ (recΔ b s (delta n))) := by
+>   LexNatOrdTop (μκ (app s (recΔ b s n))) (μκ (recΔ b s (delta n))) := by
 >   unfold LexNatOrdTop μκ; apply Prod.Lex.left; simp [kappaTop]
 >
 > def StepRev : Trace → Trace → Prop := fun a b => Step b a
@@ -67,6 +67,7 @@ Call Jayaram Select
 >   exact Subrelation.wf sub wfInv
 >
 > end OperatorKernelO6.MetaLex
+
 
 
 

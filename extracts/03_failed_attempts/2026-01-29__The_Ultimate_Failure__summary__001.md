@@ -10,13 +10,14 @@ Excerpt:
 > # The Ultimate Failure: Why `rec_succ` Necessitated the Cheat
 > ## 1. The Trap
 > The rule:
-> `rec b s (delta n)  merge s (rec b s n)`
+> `rec b s (delta n)  app s (rec b s n)`
 > This rule is a **Termination Trap**.
 > *   It promises reduction (`delta n`  `n`).
 > *   It exacts a price (`s` appearing twice).
 > ## 2. The Mathematical Impasse
 > To prove termination, we need a measure $M$ such that:
 > $M(\text{LHS}) > M(\text{RHS})$
+
 
 
 

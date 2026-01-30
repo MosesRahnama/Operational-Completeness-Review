@@ -35,7 +35,7 @@ Excerpt:
 >
 > κ behavior
 >
-> recΔ b s (delta n) → merge s (recΔ b s n): κ drops by 1 (we prove a tiny Nat max fact).
+> recΔ b s (delta n) → app s (recΔ b s n): κ drops by 1 (we prove a tiny Nat max fact).
 >
 > All other 7 rules: κ is unchanged (or not larger). We therefore use μ‑drop on the right branch of the lex.
 >
@@ -67,6 +67,7 @@ Excerpt:
 > le_omega_pow, termA_le, termB_le, and the main mu_lt_eq_diff. One‑liners are explained in comments and obey the toolkit (ordinal APIs only). We add one import: Mathlib.SetTheory.Ordinal.Principal (allowed in §1/“Additional Import”).
 >
 > Harness: keep a single WF harness file. Below I give SN_Final.lean and you should not build Termination_Lex.lean or MuLexSN.lean concurrently (those earlier files contained placeholders). The harness uses noncomputable def muHat (fixing your earlier “depends on noncomputable” error).
+
 
 
 

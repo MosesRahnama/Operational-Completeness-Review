@@ -48,14 +48,14 @@ Excerpt:
 >     by
 >       unfold μ̂ LexΔμ; apply Prod.Lex.left
 >       -- d(recΔ … (delta n)) = d b + d s + d n + 1
->       -- d(merge s (recΔ … n)) = d s + d b + d s + d n
+>       -- d(app s (recΔ … n)) = d s + d b + d s + d n
 >       -- Hence drop by 1 when d s = 0 else equal, rely on μ drop
->       have : d (merge s (recΔ b s n)) + 1 = d (recΔ b s (delta n)) := by
+>       have : d (app s (recΔ b s n)) + 1 = d (recΔ b s (delta n)) := by
 >         simp [d, Nat.add_comm, Nat.add_left_comm, Nat.add_assoc]
->       have : d (merge s (recΔ b s n)) < d (recΔ b s (delta n)) := by
+>       have : d (app s (recΔ b s n)) < d (recΔ b s (delta n)) := by
 >         -- natural numbers, drop by one
->         have : d (merge s (recΔ b s n)) + 1 = _ := this
->         have := Nat.lt_succ_self (d (merge s (recΔ b s n)))
+>         have : d (app s (recΔ b s n)) + 1 = _ := this
+>         have := Nat.lt_succ_self (d (app s (recΔ b s n)))
 >         simpa [this] using this
 >       simpa using this
 > | _, _, R_eq_refl t =>
@@ -70,6 +70,7 @@ Excerpt:
 >         simpa [d] using this
 > | _, _, R_eq_diff a b hab =>
 >     lift_mu_drop (MetaSN.mu_lt_eq_diff a b) (by simp [d])
+
 
 
 

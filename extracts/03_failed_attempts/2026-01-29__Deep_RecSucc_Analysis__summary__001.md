@@ -13,10 +13,11 @@ Excerpt:
 > When AI analyzes rec_succ, it CORRECTLY calculates:
 > ```
 > Before: M(rec b s (delta n)) = b + s + n + 2
-> After:  M(merge s (rec b s n)) = 2s + b + n + 2
+> After:  M(app s (rec b s n)) = 2s + b + n + 2
 > Increase: +s
 > ```
 > AI sees this! It writes: "The measure increases by s"
+
 
 
 

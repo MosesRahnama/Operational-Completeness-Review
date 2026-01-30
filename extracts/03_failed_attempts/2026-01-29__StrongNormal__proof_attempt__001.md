@@ -108,7 +108,7 @@ Excerpt:
 >     · exact drop_left (Nat.lt_of_le_of_ne hle hEq)
 > 
 > | _, _, Step.R_rec_succ b s n => by
->     -- recΔ b s (delta n) → merge s (recΔ b s n)  (κ drops by 1)
+>     -- recΔ b s (delta n) → app s (recΔ b s n)  (κ drops by 1)
 >     exact drop_left (kappaD_drop_recSucc b s n)
 > 
 > | _, _, Step.R_eq_refl a => by
@@ -127,6 +127,7 @@ Excerpt:
 >     have hk : kappaD (.eqW a b) = kappaD (.integrate (.merge a b)) := by
 >       simp [kappaD, Nat.max_assoc, Nat.max_comm, Nat.max_left_comm]
 >     exact drop_right hμ hk
+
 
 
 

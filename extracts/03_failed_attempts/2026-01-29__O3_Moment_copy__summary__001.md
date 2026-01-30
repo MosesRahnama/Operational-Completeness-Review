@@ -14,9 +14,10 @@ Excerpt:
 > ## A.  The Kernel & the One Troublemaker Rule
 > * Kernel is immutable: seven benign rules + the **R_rec_succ** rule
 > ```
-> rec b s ( n)    merge s (rec b s n)
+> rec b s ( n)    app s (rec b s n)
 > ```
 > The left argument (a `rec`) turns into a `merge`.  Any measure has to **drop** across that transition; otherwise well-foundedness fails.
+
 
 
 

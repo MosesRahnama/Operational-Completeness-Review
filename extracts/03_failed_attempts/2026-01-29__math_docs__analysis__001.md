@@ -52,7 +52,7 @@ Excerpt:
 > | R_merge_cancel | `merge t t → t` | `μ(t) < μ(merge t t)` | ✅ |
 > | R_rec_zero | `recΔ b s void → b` | `μ(b) < μ(recΔ b s void)` | ✅ |
 > | R_eq_refl | `eqW a a → void` | `μ(void) < μ(eqW a a)` | ✅ |
-> | **R_rec_succ** | `recΔ b s (delta n) → merge s (recΔ b s n)` | `μ(merge s (recΔ b s n)) < μ(recΔ b s (delta n))` | ❌ **MISSING** |
+> | **R_rec_succ** | `recΔ b s (delta n) → app s (recΔ b s n)` | `μ(app s (recΔ b s n)) < μ(recΔ b s (delta n))` | ❌ **MISSING** |
 > | R_eq_diff | `eqW a b → integrate (merge a b)` (a≠b) | Complex; handled by rank bits in lex measures | ⚠️ **DEFERRED** |
 > 
 > ---
@@ -76,7 +76,7 @@ Excerpt:
 > 
 > **Missing proof**: The 8th rule `R_rec_succ` requires proving:
 > ```
-> μ(merge s (recΔ b s n)) < μ(recΔ b s (delta n))
+> μ(app s (recΔ b s n)) < μ(recΔ b s (delta n))
 > ```
 > 
 > **Mathematical challenge**: The target's dominant term `ω^(μ(δn) + μ(s) + 6)` must dominate the source's structure `ω^3·(...) + ω^2·(...) + 1`. While `μ(δn) = ω^5·(μ(n)+1)+1` is much larger than any polynomial in `μ(n)`, the precise domination inequality requires complex ordinal tower analysis not yet completed.
@@ -96,6 +96,7 @@ Excerpt:
 > **Import status**: MuCore.lean has minimal dependencies and compiles cleanly, making it a stable foundation for any termination proof strategy.
 > 
 > ---
+
 
 
 

@@ -10,7 +10,7 @@ Excerpt:
 > 1 / 5Why the rec_succ Rule is Critical: A T echnical
 > Part 1: Why is rec_succ Needed?
 > The rec_succ Rule's Purpose
-> R_rec_succ :   b s n, Step (rec b s (delta n)) (merge s (rec b s n))
+> R_rec_succ :   b s n, Step (rec b s (delta n)) (app s (rec b s n))
 > Without rec_succ, the system cannot:
 > In shor t: Without rec_succ, you don't have a complete mathematical system - you have a toy that can't even
 

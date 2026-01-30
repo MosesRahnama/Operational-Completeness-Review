@@ -131,7 +131,7 @@ Excerpt:
 >   · exact drop_left (Nat.lt_of_le_of_ne hb_le hb_eq)
 >
 > | _, _, Step.R_rec_succ b s n => by
->   -- recΔ b s (delta n) → merge s (recΔ b s n)
+>   -- recΔ b s (delta n) → app s (recΔ b s n)
 >   cases n with
 >   | delta m =>
 >       -- Use your boundful μ-lemma from Meta.Termination (green).
@@ -140,14 +140,14 @@ Excerpt:
 >       -- Or use the more primitive:
 >       -- have hμ := MetaSN.mu_merge_lt_rec (b:=b) (s:=s) (n:=m) MetaSN.rec_succ_bound
 >       -- κ equal on this branch (both sides simplify to base+1):
->       have hk : kappa (merge s (recΔ b s (delta m))) = kappa (recΔ b s (delta m)) := by
+>       have hk : kappa (app s (recΔ b s (delta m))) = kappa (recΔ b s (delta m)) := by
 >         simp [kappa]
 >       exact drop_right hμ hk
 >   | _ =>
 >       let base := Nat.max (Nat.max (kappa b) (kappa s)) (kappa n)
 >       have hs_le : kappa s ≤ base :=
 >         le_trans (Nat.le_max_right _ _) (Nat.le_max_left _ _)
->       have h_merge : kappa (merge s (recΔ b s n)) = base := by
+>       have h_merge : kappa (app s (recΔ b s n)) = base := by
 >         simp [kappa, base, Nat.max_eq_right hs_le]
 >       have h_rec : kappa (recΔ b s (delta n)) = base + 1 := by
 >         simp [kappa, base]
@@ -200,6 +200,7 @@ Excerpt:
 >   - If provided: MetaSN.mu_merge_lt_rec (b:=b) (s:=s) (n:=m) MetaSN.rec_succ_bound
 >   - Or a wrapper: MetaSN.mu_lt_rec_succ b s m MetaSN.rec_succ_bound
 > - Eq-diff: MetaSN.mu_lt_eq_diff a b
+
 
 
 
